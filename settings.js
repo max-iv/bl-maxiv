@@ -119,7 +119,7 @@ module.exports = {
         type: "credentials",
         users: [{
             username: "admin",
-            password: "$2a$08$tw7oEZ6NpljniPLypNbeh.DTgZWAri1PCKJxkkKDHKYW.12KSpF7.",
+            password: "$2a$08$KaclKnSDZ7.pGtci1ZSOIep/Dqu582RURal12L7kbJ1bnv/SYPNFq",
             permissions: "*"
         }]
     },
@@ -137,10 +137,10 @@ module.exports = {
     // See the comment at the top of this file on how to load the `fs` module used by
     // this setting.
     //
-    https: {
-        key: fs.readFileSync('/home/pi/red-maxiv-box/maxiv-controlbox-01_maxiv_lu_se.key'),
-        cert: fs.readFileSync('/home/pi/red-maxiv-box/maxiv-controlbox-01_maxiv_lu_se.cer')
-    },
+    //https: {
+    //    key: fs.readFileSync('/home/pi/red-maxiv-box/maxiv-controlbox-01_maxiv_lu_se.key'),
+    //    cert: fs.readFileSync('/home/pi/red-maxiv-box/maxiv-controlbox-01_maxiv_lu_se.cer')
+    //},
     // The following property can be used to cause insecure HTTP connections to
     // be redirected to HTTPS.
     //requireHttps: true
