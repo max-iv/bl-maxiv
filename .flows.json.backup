@@ -70,6 +70,40 @@
         "color": "#DDAA99"
     },
     {
+        "id": "3fec913b325ae6ff",
+        "type": "subflow",
+        "name": "HTTPS Check",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "30495fc00067bd92"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 300,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "30495fc00067bd92",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#487895",
+        "icon": "font-awesome/fa-key"
+    },
+    {
         "id": "6ad7c930.1a06b8",
         "type": "ui_base",
         "theme": {
@@ -537,6 +571,208 @@
                 "9460eaf0.da7628"
             ]
         ]
+    },
+    {
+        "id": "721e5b041cde047a",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "Body",
+        "field": "payload.body",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!-- Body HTML -->\n   <h1 style=\"text-align:center;color:#415c71;\">{{{payload.errorMsg}}}</h1>\n   <p></p>\n   <h1 style=\"text-align:center;color:#415c71;\">Redirecting to HTTPS...</h1>\n",
+        "output": "str",
+        "x": 770,
+        "y": 80,
+        "wires": [
+            [
+                "8c6be08c3d726f73"
+            ]
+        ]
+    },
+    {
+        "id": "07bacb5b77262b3d",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "Title",
+        "field": "payload.title",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Insecure Connection",
+        "output": "str",
+        "x": 490,
+        "y": 80,
+        "wires": [
+            [
+                "3a39937ddaa75862"
+            ]
+        ]
+    },
+    {
+        "id": "5129e0a4079ad82a",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "JavaScript",
+        "field": "payload.javascript",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "        $( document ).ready(function()\n        {\n            setTimeout(function(){location.replace(\"{{{payload.httpsUrl}}}\");}, 3000);\n        });\n \n",
+        "output": "str",
+        "x": 350,
+        "y": 80,
+        "wires": [
+            [
+                "07bacb5b77262b3d"
+            ]
+        ]
+    },
+    {
+        "id": "3a39937ddaa75862",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "navBarIcon",
+        "field": "payload.navBarIcon",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "basicYellow.png",
+        "output": "str",
+        "x": 630,
+        "y": 80,
+        "wires": [
+            [
+                "721e5b041cde047a"
+            ]
+        ]
+    },
+    {
+        "id": "8c6be08c3d726f73",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "navBar",
+        "field": "payload.navBar",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!-- navBar -->\n    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/bl-mc-icon-inverse.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">\n                        <img src=\"/img/{{{payload.navBarIcon}}}\" height=\"75px\" style=\"padding-right:20px;\"/><span>{{{payload.title}}}</span>\n                    </h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <a href='/apps'><img src=\"/img/home.png\" height=\"75px\"/></a>\n                </td>\n            </tr>\n        </table>\n    </div>",
+        "output": "str",
+        "x": 900,
+        "y": 80,
+        "wires": [
+            [
+                "83802deb03eddd20"
+            ]
+        ]
+    },
+    {
+        "id": "83802deb03eddd20",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "CSS",
+        "field": "payload.css",
+        "fieldType": "msg",
+        "format": "css",
+        "syntax": "mustache",
+        "template": "        :root \n        {\n          --color1: #415c71;\n          --color2: #547792;\n          --color3: #9eb5c7;\n          --color4: #c6c2bb;\n          --color5: #fdc300;\n          --big-text-size :300%;\n          --bold-text :900;\n          --vert-pad : 25px;\n          --horz-pad : 25px;\n        }\n        body \n        {\n          background-color: white !important;\n          padding-left:25px;\n          padding-right:25px;\n        }\n        \n        img \n        {\n          object-fit: contain;\n        }\n        a\n        {\n            color: white;\n        }\n        a:visited \n        { \n            color: var(--white);\n        }\n        a:hover \n        { \n            color: var(--color5);\n        }\n\n        .jumbotron \n        {\n          background-color: var(--color2) !important;\n          color: white;\n          padding-top:25px;\n          padding-bottom:25px;\n        }\n        .jumbotron-title\n        {\n          color:var(--color5);\n        }\n        .jumbotron-button\n        {\n          color: white;\n          background-color: var(--color1);\n       }\n        .card\n        {\n          background-color: var(--color2) !important;\n          text-align: center;\n        }\n        .card-body\n        {\n          background-color: var(--color3);;\n        }\n        .card-button\n        {\n          color: var(--color5) !important;\n          background-color: var(--color1) !important;\n          font-weight: bold;\n        }\n        .card-title\n        {\n          color: var(--color5);\n          font-weight: var(--bold-text);\n          font-size: var(--big-text-size);\n         }\n        .card-text\n        {\n          color: white;\n          text-align: left;\n          font-size: var(--big-text-size);\n        }\n        .danger-card\n        {\n          background-color: yellow !important;\n          text-align: center;\n        }\n        .danger-card-body\n        {\n          background-color: yellow;\n        }\n        .danger-card-button\n        {\n          color: yellow !important;\n          background-color: red !important;\n          font-weight: bold;\n        }\n        .danger-card-title\n        {\n          color: red;\n          font-weight: var(--bold-text);\n          font-size: var(--big-text-size);\n         }\n        .danger-card-text\n        {\n          color: white;\n          text-align: left;\n          font-size: var(--big-text-size);\n        }\n        .tableHeading\n        {\n          color:var(--container-title-color);\n        }\n        .tableText\n        {\n          color:var(--container-text-color);\n          font-size: var(--big-text-size);\n        }\n       .vert-pad\n        {\n            padding-top:var(--vert-pad);;\n            padding-bottom:var(--vert-pad);;\n        }\n        .horz-pad\n        {\n            padding-left:var(--horz-pad);;\n            padding-right:var(--horz-pad);;\n        }\n        .big-text\n        {\n            font-size: var(--big-text-size);\n        }\n        .bold-text\n        {\n            font-weight: var(--bold-text);\n        }\n       .ui-dialog-titlebar-close \n        {\n            visibility: hidden;\n        }\n        input.inputLarger \n        { \n            transform: scale(3); \n            margin: 1px;\n        }\n        .googleSlide4by3-container \n        {\n            position: relative;\n            overflow: hidden;\n            padding-top: 75.0%;\n        }\n        .googleSlide4by3-iframe {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            border: 0;\n        }        \n        .custom-select\n        {\n            color: black;\n            background-color: white;\n            height:80px;\n            line-height:70px;\n        }\n",
+        "output": "str",
+        "x": 1050,
+        "y": 80,
+        "wires": [
+            [
+                "3e97c79390cf79f0"
+            ]
+        ]
+    },
+    {
+        "id": "30495fc00067bd92",
+        "type": "function",
+        "z": "3fec913b325ae6ff",
+        "name": "https check",
+        "func": "let ireq = -1;\nfor (let ii = 0; ii < msg.req.rawHeaders.length; ++ii)\n{\n    if (msg.req.rawHeaders[ii] == \"X-Forwarded-Proto\") ireq = ii + 1;\n}\nif (ireq >= 0) \n{\n    if (msg.req.rawHeaders[ireq] == 'http')\n    {\n        msg.cookies = { };\n        let ireq2 = -1;\n        for (let ii = 0; ii < msg.req.rawHeaders.length; ++ii)\n        {\n            if (msg.req.rawHeaders[ii] == \"Host\") ireq2 = ii + 1;\n        }\n        if (ireq2 >= 0)\n        {\n            let host = msg.req.rawHeaders[ireq2];\n            let url = \"https://\" + host + msg.req.url;\n            msg.payload['httpsUrl'] = url;\n        }\n        else\n        {\n            msg.payload['httpsUrl'] = '';\n        }\n        msg.payload.errorMsg = \"Insecure Connection!\";\n        return [null,msg];\n    }\n}\nreturn [msg,null];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [],
+            [
+                "5129e0a4079ad82a"
+            ]
+        ]
+    },
+    {
+        "id": "124220290623f310",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "HTML",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n{{{payload.head}}}\n  </head>\n  <body>\n{{{payload.navBar}}}\n{{{payload.body}}}\n{{{payload.foot}}}\n  </body>\n</html>",
+        "output": "str",
+        "x": 650,
+        "y": 220,
+        "wires": [
+            [
+                "155aa92c7a1b80ab"
+            ]
+        ]
+    },
+    {
+        "id": "370b2570c9f1209a",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "Foot",
+        "field": "payload.foot",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "    <script src=\"/scripts/popper.js\"></script>\n    <script src=\"/scripts/bootstrap.js\"></script>",
+        "output": "str",
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "124220290623f310"
+            ]
+        ]
+    },
+    {
+        "id": "3e97c79390cf79f0",
+        "type": "template",
+        "z": "3fec913b325ae6ff",
+        "name": "Head",
+        "field": "payload.head",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/img/favicon.ico?v=4\" type=\"image/x-icon\"/>\n    <title>{{payload.title}}</title>\n    <link rel=\"stylesheet\" href=\"/css/bootstrap.css\"/>\n    <link rel=\"stylesheet\" href=\"/jquery/jquery-ui.css\"/>\n    <link rel=\"stylesheet\" href=\"/jquery/jquery-ui-timepicker-addon.css\"/>\n    <script src=\"/jquery/jquery.js\"></script>\n    <script src=\"/jquery/jquery-ui.js\"></script>\n    <script src=\"/jquery/jquery-ui-timepicker-addon.js\"></script>\n    <script src=\"/scripts/plotly-latest.min.js\"></script>\n    <script src=\"/scripts/pako.min.js\"></script>\n    <style>\n{{{payload.css}}}\n    </style>\n    <script>\n    </script>\n    <script>\n{{{payload.javascript}}}\n    </script>\n",
+        "output": "str",
+        "x": 410,
+        "y": 220,
+        "wires": [
+            [
+                "370b2570c9f1209a"
+            ]
+        ]
+    },
+    {
+        "id": "155aa92c7a1b80ab",
+        "type": "http response",
+        "z": "3fec913b325ae6ff",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 770,
+        "y": 220,
+        "wires": []
     },
     {
         "id": "f62ae826.1bfb58",
@@ -1037,7 +1273,7 @@
         "y": 620,
         "wires": [
             [
-                "0c6df26dca530eca"
+                "1ea7cffebed6852b"
             ]
         ]
     },
@@ -1052,7 +1288,7 @@
         "initialize": "",
         "finalize": "",
         "x": 340,
-        "y": 620,
+        "y": 660,
         "wires": [
             [
                 "2f89cc634b2a7290"
@@ -1071,7 +1307,7 @@
         "template": "R3 Fill Pattern",
         "output": "str",
         "x": 280,
-        "y": 700,
+        "y": 740,
         "wires": [
             [
                 "883a337d3e6ceb4a"
@@ -1185,7 +1421,7 @@
         "template": "bucketYellow.png",
         "output": "str",
         "x": 290,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "d39d29c8bd79c6cd"
@@ -1252,7 +1488,7 @@
         "y": 820,
         "wires": [
             [
-                "e2535316a87d1308"
+                "45b3c4267e750084"
             ]
         ]
     },
@@ -1267,7 +1503,7 @@
         "initialize": "",
         "finalize": "",
         "x": 340,
-        "y": 820,
+        "y": 860,
         "wires": [
             [
                 "355c0ee49092e965"
@@ -1286,7 +1522,7 @@
         "template": "R3 Spectrogram",
         "output": "str",
         "x": 280,
-        "y": 900,
+        "y": 940,
         "wires": [
             [
                 "bdda2187c7654339"
@@ -1381,7 +1617,7 @@
         "template": "yellowSpectrum.png",
         "output": "str",
         "x": 290,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
                 "94078219625670da"
@@ -1484,7 +1720,7 @@
         "initialize": "",
         "finalize": "",
         "x": 400,
-        "y": 1040,
+        "y": 1080,
         "wires": [
             [
                 "d970415114338f44"
@@ -1503,7 +1739,7 @@
         "template": "R3 Comfort Display",
         "output": "str",
         "x": 340,
-        "y": 1120,
+        "y": 1160,
         "wires": [
             [
                 "f348e6ef44edd364"
@@ -1522,7 +1758,7 @@
         "template": "comfortYellow.png",
         "output": "str",
         "x": 350,
-        "y": 1080,
+        "y": 1120,
         "wires": [
             [
                 "bba65a417ffe42e2"
@@ -1551,7 +1787,7 @@
         "y": 1040,
         "wires": [
             [
-                "2a86fb4b0a5515d2"
+                "991640f349d6a85f"
             ]
         ]
     },
@@ -1726,7 +1962,7 @@
         "initialize": "",
         "finalize": "",
         "x": 400,
-        "y": 1280,
+        "y": 1320,
         "wires": [
             [
                 "aade4afc4e9802b1"
@@ -1745,7 +1981,7 @@
         "template": "R3 Comfort",
         "output": "str",
         "x": 340,
-        "y": 1360,
+        "y": 1400,
         "wires": [
             [
                 "ac8ceee880b6a0aa"
@@ -1764,7 +2000,7 @@
         "template": "comfortYellow.png",
         "output": "str",
         "x": 350,
-        "y": 1320,
+        "y": 1360,
         "wires": [
             [
                 "b5ce9257d678c874"
@@ -1793,7 +2029,7 @@
         "y": 1280,
         "wires": [
             [
-                "d2e66ed076dd4c98"
+                "d5459d900a94e754"
             ]
         ]
     },
@@ -1927,6 +2163,58 @@
         "wires": [
             [
                 "37f67f6f40e574c0"
+            ]
+        ]
+    },
+    {
+        "id": "1ea7cffebed6852b",
+        "type": "subflow:3fec913b325ae6ff",
+        "z": "8475ab9.3d26058",
+        "name": "",
+        "x": 300,
+        "y": 620,
+        "wires": [
+            [
+                "0c6df26dca530eca"
+            ]
+        ]
+    },
+    {
+        "id": "45b3c4267e750084",
+        "type": "subflow:3fec913b325ae6ff",
+        "z": "8475ab9.3d26058",
+        "name": "",
+        "x": 300,
+        "y": 820,
+        "wires": [
+            [
+                "e2535316a87d1308"
+            ]
+        ]
+    },
+    {
+        "id": "991640f349d6a85f",
+        "type": "subflow:3fec913b325ae6ff",
+        "z": "8475ab9.3d26058",
+        "name": "",
+        "x": 360,
+        "y": 1040,
+        "wires": [
+            [
+                "2a86fb4b0a5515d2"
+            ]
+        ]
+    },
+    {
+        "id": "d5459d900a94e754",
+        "type": "subflow:3fec913b325ae6ff",
+        "z": "8475ab9.3d26058",
+        "name": "",
+        "x": 360,
+        "y": 1280,
+        "wires": [
+            [
+                "d2e66ed076dd4c98"
             ]
         ]
     }
