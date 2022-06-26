@@ -991,7 +991,7 @@
         "y": 500,
         "wires": [
             [
-                "79810132a62f63f0"
+                "1da52308f2d10827"
             ]
         ]
     },
@@ -1006,7 +1006,7 @@
         "syntax": "mustache",
         "template": "Beam Stability",
         "output": "str",
-        "x": 390,
+        "x": 630,
         "y": 500,
         "wires": [
             [
@@ -1025,7 +1025,7 @@
         "syntax": "mustache",
         "template": "        useWebSockets(false);\n        function onDocumentReady()\n        {\n        }\n        function onWebSocketOpen()\n        {\n        }\n        function onWebSocketClose()\n        {\n            \n        }\n        function onWebSocketMessage(msg)\n        {\n        }\n\n",
         "output": "str",
-        "x": 640,
+        "x": 880,
         "y": 500,
         "wires": [
             [
@@ -1044,7 +1044,7 @@
         "syntax": "mustache",
         "template": "<!-- Body HTML -->\n    <div class='container' width=\"100%\">\n        <div class='row vert-pad' >\n            <div class='col-md-12'>\n                <a class=\"btn jumbotron-button btn-block big-text bold-text\" width='80%' href=\"/comfort-mobile?name=r3\" >\n                    <table width=\"100%\" alight=\"left\">\n                        <tr>\n                            <td width=\"30%\" align='center'> <img src=\"/img/comfortYellow.png\" height=\"70px\"/></td>\n                            <td width=\"70%\" align=\"left\">R3 Comfort Mobile</td>\n                        </tr>\n                    </table>\n                </a>\n            </div>\n        </div>\n        <div class='row vert-pad' >\n            <div class='col-md-12'>\n                <a class=\"btn jumbotron-button btn-block big-text bold-text\" width='80%' href=\"/comfort?name=r3\" >\n                    <table width=\"100%\" alight=\"left\">\n                        <tr>\n                            <td width=\"30%\" align='center'> <img src=\"/img/comfortYellow.png\" height=\"70px\"/></td>\n                            <td width=\"70%\" align=\"left\">R3 Comfort Desktop</td>\n                        </tr>\n                    </table>\n                </a>\n            </div>\n        </div>\n        <div class='row vert-pad' >\n            <div class='col-md-12'>\n                <a class=\"btn jumbotron-button btn-block big-text bold-text\" width='80%' href=\"/oo-spec?name=r3\" >\n                    <table width=\"100%\" alight=\"left\">\n                        <tr>\n                            <td width=\"30%\" align='center'> <img src=\"/img/yellowSpectrum.png\" height=\"70px\"/></td>\n                            <td width=\"70%\" align=\"left\">R3 Spectrogram</td>\n                        </tr>\n                    </table>\n                </a>\n            </div>\n        </div>\n        <div class='row vert-pad' >\n            <div class='col-md-12'>\n                <a class=\"btn jumbotron-button btn-block big-text bold-text\" width='80%' href=\"/rfill?name=r3\" >\n                    <table width=\"100%\" alight=\"left\">\n                        <tr>\n                            <td width=\"30%\" align='center'> <img src=\"/img/bucketYellow.png\" height=\"50px\"/></td>\n                            <td width=\"70%\" align=\"left\">R3 Fill Pattern</td>\n                        </tr>\n                    </table>\n                </a>\n            </div>\n        </div>\n         <div class='row vert-pad' >\n            <div class='col-md-12'>\n                <a class=\"btn jumbotron-button btn-block big-text bold-text\" width='80%' href=\"https://status.maxiv.lu.se/status/html/\" >\n                    <table width=\"100%\" alight=\"left\">\n                        <tr>\n                            <td width=\"30%\" align='center'> <img src=\"/img/MAX-IVYellow.png\" height=\"70px\"/></td>\n                            <td width=\"70%\" align=\"left\">MaxIV Status</td>\n                        </tr>\n                    </table>\n                </a>\n            </div>\n        </div>\n  </div>\n",
         "output": "str",
-        "x": 510,
+        "x": 750,
         "y": 500,
         "wires": [
             [
@@ -1057,7 +1057,7 @@
         "type": "subflow:8341090a.df9758",
         "z": "8475ab9.3d26058",
         "name": "",
-        "x": 790,
+        "x": 1030,
         "y": 500,
         "wires": []
     },
@@ -1072,7 +1072,7 @@
         "syntax": "mustache",
         "template": "appsYellow.png",
         "output": "str",
-        "x": 250,
+        "x": 490,
         "y": 500,
         "wires": [
             [
@@ -2215,6 +2215,19 @@
         "wires": [
             [
                 "d2e66ed076dd4c98"
+            ]
+        ]
+    },
+    {
+        "id": "1da52308f2d10827",
+        "type": "subflow:3fec913b325ae6ff",
+        "z": "8475ab9.3d26058",
+        "name": "",
+        "x": 300,
+        "y": 500,
+        "wires": [
+            [
+                "79810132a62f63f0"
             ]
         ]
     }
