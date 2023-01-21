@@ -1,0 +1,13 @@
+BOX=blinky-lite-v4
+SUBSCRIBETOPIC=blinky-lite-v4/+/+/#
+MONGODBIP=mongodb+srv://zzzz:bbbb@cluster0.aaaa.mongodb.net/blinky-lite?retryWrites=true&w=majority
+MQTTCLIENTID=blinky-lite-v4-box-sandbox
+MQTTSERVERIP=xxxx
+MQTTUSERNAME=yyyy
+MQTTPASSWORD=zzzz
+NEXMOAPIKEY=aaaa
+NEXMOAPISECRET=yyyy
+JWTKEYSECRET=zzzz
+MAXDBSIZE=450000000
+IPREFWEB=https://blinky-lite.io
+NODEREDCONFIGSECRET=aaaa
