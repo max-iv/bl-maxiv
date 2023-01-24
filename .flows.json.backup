@@ -483,9 +483,7 @@
             "6e5fe8f4665ee2fd"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1312,
-        "h": 142
+        "y": 39
     },
     {
         "id": "222f7527456f431b",
@@ -508,9 +506,7 @@
             "c4e92c75751127a2"
         ],
         "x": 34,
-        "y": 219,
-        "w": 1312,
-        "h": 142
+        "y": 219
     },
     {
         "id": "8513d2368ac7161f",
@@ -533,9 +529,7 @@
             "b690e92951ea57f3"
         ],
         "x": 34,
-        "y": 399,
-        "w": 1312,
-        "h": 142
+        "y": 399
     },
     {
         "id": "e02813d59f160a5c",
@@ -558,9 +552,7 @@
             "4f5138b1c21ad771"
         ],
         "x": 34,
-        "y": 579,
-        "w": 1312,
-        "h": 142
+        "y": 579
     },
     {
         "id": "e0c14b4f190836c9",
@@ -583,9 +575,7 @@
             "66ce09a4d677808a"
         ],
         "x": 34,
-        "y": 759,
-        "w": 1312,
-        "h": 142
+        "y": 759
     },
     {
         "id": "674af16debdd8f0f",
@@ -608,9 +598,7 @@
             "6ab0f551657f68ec"
         ],
         "x": 34,
-        "y": 939,
-        "w": 1312,
-        "h": 142
+        "y": 939
     },
     {
         "id": "9e9aab81c0c1e479",
@@ -633,9 +621,7 @@
             "25f8c290f03f8dce"
         ],
         "x": 34,
-        "y": 1119,
-        "w": 1312,
-        "h": 142
+        "y": 1119
     },
     {
         "id": "ff1586c44763ab25",
@@ -658,9 +644,7 @@
             "bb3bc9ccb4b7ccfa"
         ],
         "x": 34,
-        "y": 1299,
-        "w": 1312,
-        "h": 142
+        "y": 1299
     },
     {
         "id": "e61434d43b450009",
@@ -683,9 +667,7 @@
             "ddd27203e99450e3"
         ],
         "x": 34,
-        "y": 1479,
-        "w": 1312,
-        "h": 142
+        "y": 1479
     },
     {
         "id": "8b1ca40e143d36e4",
@@ -708,9 +690,7 @@
             "17ea133e78cd791e"
         ],
         "x": 34,
-        "y": 1659,
-        "w": 1312,
-        "h": 142
+        "y": 1659
     },
     {
         "id": "55cd6f49bccbac2c",
@@ -758,9 +738,7 @@
             "e1806fc6647b30e4"
         ],
         "x": 34,
-        "y": 1839,
-        "w": 1312,
-        "h": 142
+        "y": 1839
     },
     {
         "id": "17d8aee66ef5f14b",
@@ -783,9 +761,7 @@
             "9ee70b7f7567a0d3"
         ],
         "x": 34,
-        "y": 2019,
-        "w": 1312,
-        "h": 142
+        "y": 2019
     },
     {
         "id": "6c2db529cbe5190a",
@@ -808,9 +784,7 @@
             "14fc94d6d31cb660"
         ],
         "x": 34,
-        "y": 2199,
-        "w": 1312,
-        "h": 142
+        "y": 2199
     },
     {
         "id": "a732e8657f5583e1",
@@ -833,9 +807,7 @@
             "989ba4dd6a4ca183"
         ],
         "x": 34,
-        "y": 2379,
-        "w": 1312,
-        "h": 142
+        "y": 2379
     },
     {
         "id": "16d44c3cfa3101e4",
@@ -858,9 +830,7 @@
             "e879f75c0e5c3ca1"
         ],
         "x": 34,
-        "y": 2559,
-        "w": 1312,
-        "h": 142
+        "y": 2559
     },
     {
         "id": "1ea74c70db7a8d4c",
@@ -883,9 +853,7 @@
             "d9e2848941f56361"
         ],
         "x": 34,
-        "y": 2739,
-        "w": 1312,
-        "h": 142
+        "y": 2739
     },
     {
         "id": "52e9056d6e8207fb",
@@ -908,9 +876,7 @@
             "59f2b833ab020772"
         ],
         "x": 34,
-        "y": 2919,
-        "w": 1312,
-        "h": 142
+        "y": 2919
     },
     {
         "id": "09dbbd36ba9b70c2",
@@ -933,9 +899,7 @@
             "273db2592695c0d2"
         ],
         "x": 34,
-        "y": 3099,
-        "w": 1312,
-        "h": 142
+        "y": 3099
     },
     {
         "id": "727f4fbbc86c2387",
@@ -958,9 +922,7 @@
             "9438da355fd08b18"
         ],
         "x": 34,
-        "y": 3279,
-        "w": 1312,
-        "h": 142
+        "y": 3279
     },
     {
         "id": "49dd55f9fc61ca4b",
@@ -983,9 +945,7 @@
             "3621238135f38bc8"
         ],
         "x": 34,
-        "y": 3459,
-        "w": 1312,
-        "h": 142
+        "y": 3459
     },
     {
         "id": "6ad7c930.1a06b8",
@@ -1305,6 +1265,18 @@
         "id": "a64d56be7e50cf27",
         "type": "websocket-listener",
         "path": "/restAccess-log/websocket",
+        "wholemsg": "false"
+    },
+    {
+        "id": "fe13198f113c97d2",
+        "type": "websocket-listener",
+        "path": "/tokenReq/websocket",
+        "wholemsg": "false"
+    },
+    {
+        "id": "17ed7c0596fc5a5b",
+        "type": "websocket-listener",
+        "path": "/newCreds/websocket",
         "wholemsg": "false"
     },
     {
@@ -1925,7 +1897,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!-- navBar -->\n    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/blmc-logo.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">\n                        <img src=\"/img/{{{payload.navBarIcon}}}\" height=\"75px\" style=\"padding-right:20px;\"/><span>{{{payload.title}}}</span>\n                    </h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <a href='/myapps'><img src=\"/img/home.png\" height=\"75px\"/></a>\n                </td>\n            </tr>\n        </table>\n    </div>",
+        "template": "<!-- navBar -->\n    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/project-logo.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">\n                        <img src=\"/img/{{{payload.navBarIcon}}}\" height=\"75px\" style=\"padding-right:20px;\"/><span>{{{payload.title}}}</span>\n                    </h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <a href='/myapps'><img src=\"/img/home.png\" height=\"75px\"/></a>\n                </td>\n            </tr>\n        </table>\n    </div>",
         "output": "str",
         "x": 200,
         "y": 80,
@@ -1955,7 +1927,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/blmc-logo.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">{{{payload.title}}}</h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <a href='/core'><img src=\"/img/core.png\" height=\"75px\"/></a>\n                </td>\n            </tr>\n        </table>\n    </div>\n    \n",
+        "template": "    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/project-logo.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">{{{payload.title}}}</h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <a href='/core'><img src=\"/img/core.png\" height=\"75px\"/></a>\n                </td>\n            </tr>\n        </table>\n    </div>\n    \n",
         "output": "str",
         "x": 180,
         "y": 80,
@@ -1991,13 +1963,13 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!-- Body HTML -->\n   <h1 style=\"text-align:center;color:#415c71;\">{{{payload.errorMsg}}}</h1>\n   <p></p>\n   <h1 style=\"text-align:center;color:#415c71;\">Redirecting to HTTPS...</h1>\n",
+        "template": "<!-- Body HTML -->\n   <h1 style=\"text-align:center;color:white\">{{{payload.errorMsg}}}</h1>\n   <p></p>\n   <h1 style=\"text-align:center;color:white\">Redirecting to HTTPS...</h1>\n",
         "output": "str",
         "x": 770,
         "y": 80,
         "wires": [
             [
-                "8c6be08c3d726f73"
+                "7c1cd5258b53caf6"
             ]
         ]
     },
@@ -2048,51 +2020,13 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "basicYellow.png",
+        "template": "basic.png",
         "output": "str",
         "x": 630,
         "y": 80,
         "wires": [
             [
                 "721e5b041cde047a"
-            ]
-        ]
-    },
-    {
-        "id": "8c6be08c3d726f73",
-        "type": "template",
-        "z": "3fec913b325ae6ff",
-        "name": "navBar",
-        "field": "payload.navBar",
-        "fieldType": "msg",
-        "format": "html",
-        "syntax": "mustache",
-        "template": "<!-- navBar -->\n    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">\n                        <span>{{{payload.title}}}</span>\n                    </h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                </td>\n            </tr>\n        </table>\n    </div>",
-        "output": "str",
-        "x": 900,
-        "y": 80,
-        "wires": [
-            [
-                "83802deb03eddd20"
-            ]
-        ]
-    },
-    {
-        "id": "83802deb03eddd20",
-        "type": "template",
-        "z": "3fec913b325ae6ff",
-        "name": "CSS",
-        "field": "payload.css",
-        "fieldType": "msg",
-        "format": "css",
-        "syntax": "mustache",
-        "template": "        :root \n        {\n          --color1: #415c71;\n          --color2: #547792;\n          --color3: #9eb5c7;\n          --color4: #c6c2bb;\n          --color5: #fdc300;\n          --big-text-size :300%;\n          --bold-text :900;\n          --vert-pad : 25px;\n          --horz-pad : 25px;\n        }\n        body \n        {\n          background-color: white !important;\n          padding-left:25px;\n          padding-right:25px;\n        }\n        \n        img \n        {\n          object-fit: contain;\n        }\n        a\n        {\n            color: white;\n        }\n        a:visited \n        { \n            color: var(--white);\n        }\n        a:hover \n        { \n            color: var(--color5);\n        }\n\n        .jumbotron \n        {\n          background-color: var(--color2) !important;\n          color: white;\n          padding-top:25px;\n          padding-bottom:25px;\n        }\n        .jumbotron-title\n        {\n          color:var(--color5);\n        }\n        .jumbotron-button\n        {\n          color: white;\n          background-color: var(--color1);\n       }\n        .card\n        {\n          background-color: var(--color2) !important;\n          text-align: center;\n        }\n        .card-body\n        {\n          background-color: var(--color3);;\n        }\n        .card-button\n        {\n          color: var(--color5) !important;\n          background-color: var(--color1) !important;\n          font-weight: bold;\n        }\n        .card-title\n        {\n          color: var(--color5);\n          font-weight: var(--bold-text);\n          font-size: var(--big-text-size);\n         }\n        .card-text\n        {\n          color: white;\n          text-align: left;\n          font-size: var(--big-text-size);\n        }\n        .danger-card\n        {\n          background-color: yellow !important;\n          text-align: center;\n        }\n        .danger-card-body\n        {\n          background-color: yellow;\n        }\n        .danger-card-button\n        {\n          color: yellow !important;\n          background-color: red !important;\n          font-weight: bold;\n        }\n        .danger-card-title\n        {\n          color: red;\n          font-weight: var(--bold-text);\n          font-size: var(--big-text-size);\n         }\n        .danger-card-text\n        {\n          color: white;\n          text-align: left;\n          font-size: var(--big-text-size);\n        }\n        .tableHeading\n        {\n          color:var(--container-title-color);\n        }\n        .tableText\n        {\n          color:var(--container-text-color);\n          font-size: var(--big-text-size);\n        }\n       .vert-pad\n        {\n            padding-top:var(--vert-pad);;\n            padding-bottom:var(--vert-pad);;\n        }\n        .horz-pad\n        {\n            padding-left:var(--horz-pad);;\n            padding-right:var(--horz-pad);;\n        }\n        .big-text\n        {\n            font-size: var(--big-text-size);\n        }\n        .bold-text\n        {\n            font-weight: var(--bold-text);\n        }\n       .ui-dialog-titlebar-close \n        {\n            visibility: hidden;\n        }\n        input.inputLarger \n        { \n            transform: scale(3); \n            margin: 1px;\n        }\n        .googleSlide4by3-container \n        {\n            position: relative;\n            overflow: hidden;\n            padding-top: 75.0%;\n        }\n        .googleSlide4by3-iframe {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            border: 0;\n        }        \n        .custom-select\n        {\n            color: black;\n            background-color: white;\n            height:80px;\n            line-height:70px;\n        }\n",
-        "output": "str",
-        "x": 1050,
-        "y": 80,
-        "wires": [
-            [
-                "3e97c79390cf79f0"
             ]
         ]
     },
@@ -2127,8 +2061,8 @@
         "syntax": "mustache",
         "template": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n{{{payload.head}}}\n  </head>\n  <body>\n{{{payload.navBar}}}\n{{{payload.body}}}\n{{{payload.foot}}}\n  </body>\n</html>",
         "output": "str",
-        "x": 650,
-        "y": 220,
+        "x": 1290,
+        "y": 80,
         "wires": [
             [
                 "155aa92c7a1b80ab"
@@ -2146,8 +2080,8 @@
         "syntax": "mustache",
         "template": "    <script src=\"/scripts/popper.js\"></script>\n    <script src=\"/scripts/bootstrap.js\"></script>",
         "output": "str",
-        "x": 530,
-        "y": 220,
+        "x": 1170,
+        "y": 80,
         "wires": [
             [
                 "124220290623f310"
@@ -2165,8 +2099,8 @@
         "syntax": "mustache",
         "template": "    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/img/favicon.ico?v=4\" type=\"image/x-icon\"/>\n    <title>{{payload.title}}</title>\n    <link rel=\"stylesheet\" href=\"/css/bootstrap.css\"/>\n    <link rel=\"stylesheet\" href=\"/jquery/jquery-ui.css\"/>\n    <link rel=\"stylesheet\" href=\"/jquery/jquery-ui-timepicker-addon.css\"/>\n    <script src=\"/jquery/jquery.js\"></script>\n    <script src=\"/jquery/jquery-ui.js\"></script>\n    <script src=\"/jquery/jquery-ui-timepicker-addon.js\"></script>\n    <script src=\"/scripts/plotly-latest.min.js\"></script>\n    <script src=\"/scripts/pako.min.js\"></script>\n    <style>\n{{{payload.css}}}\n    </style>\n    <script>\n    </script>\n    <script>\n{{{payload.javascript}}}\n    </script>\n",
         "output": "str",
-        "x": 410,
-        "y": 220,
+        "x": 1050,
+        "y": 80,
         "wires": [
             [
                 "370b2570c9f1209a"
@@ -2180,9 +2114,22 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 770,
-        "y": 220,
+        "x": 1410,
+        "y": 80,
         "wires": []
+    },
+    {
+        "id": "7c1cd5258b53caf6",
+        "type": "subflow:c57c2f9e65e6cb70",
+        "z": "3fec913b325ae6ff",
+        "name": "",
+        "x": 910,
+        "y": 80,
+        "wires": [
+            [
+                "3e97c79390cf79f0"
+            ]
+        ]
     },
     {
         "id": "03d904d46af609c9",
@@ -2609,7 +2556,7 @@
         "fieldType": "msg",
         "format": "javascript",
         "syntax": "mustache",
-        "template": "//iframeCard\n        class IframeCard \n        {\n            constructor(app, config)\n            {\n                this.app = app;\n                this.config = config;\n            }\n            onDocumentReady()\n            {\n                let containerRowDiv = document.createElement('div');\n                containerRowDiv.setAttribute('class', 'row iframeCard-containerRow');\n                document.getElementById('appContent').appendChild(containerRowDiv);\n                \n                let containerColDiv = document.createElement('div');\n                containerColDiv.setAttribute('class', 'col-md-12');\n                containerColDiv.setAttribute('align', 'center');\n                containerRowDiv.appendChild(containerColDiv);\n\n                let cardDiv = document.createElement('div');\n                cardDiv.setAttribute('class', 'card iframeCard');\n                containerColDiv.appendChild(cardDiv);\n                \n                let titleTable = document.createElement('table');\n                titleTable.setAttribute('width', '100%');\n                let titleRow  = document.createElement('tr');\n                let titleCol  = document.createElement('td');\n                titleCol.setAttribute('width', '85%');\n                titleCol.setAttribute('align', 'left');\n                let titleSpan  = document.createElement('span');\n                titleSpan.setAttribute('class', 'iframeCard-title');\n                titleSpan.innerHTML = this.config.title;\n                titleCol.appendChild(titleSpan);\n                titleRow.appendChild(titleCol);\n                let buttonCol  = document.createElement('td');\n                buttonCol.setAttribute('width', '15%');\n\n                this.displayButton = document.createElement('button');\n                this.displayButton.setAttribute('class', 'btn btn-block iframeCard-title-button');\n                this.displayButton.innerHTML = '-';\n                this.displayButton.onclick = event => {this.toggle()};\n                buttonCol.appendChild(this.displayButton);\n                titleRow.appendChild(buttonCol);\n\n                this.cardBodyDiv = document.createElement('div');\n\n                titleTable.appendChild(titleRow);\n                cardDiv.appendChild(titleTable);\n                cardDiv.appendChild(this.cardBodyDiv);\n\n                this.cardBodyDiv.setAttribute('style', \"width:100%; height: \" + this.config.height +  \";\");\n                this.iframe = document.createElement('iframe');\n                let keys = Object.keys(this.config.extraAttr);\n                for (var ii = 0; ii < keys.length; ++ii)\n                {\n                    this.iframe.setAttribute(keys[ii], this.config.extraAttr[keys[ii]]);\n                }\n\n                this.cardBodyDiv.appendChild(this.iframe);\n\n                if (this.config.displayOnOpen)\n                {\n                    let tsText = \"ts=\" + new Date().getTime().toString();\n                    if (this.config.url.indexOf(\"?\") > -1) \n                    {\n                        this.iframe.src = this.config.url + \"&\" + tsText;\n                    }\n                    else \n                    {\n                        this.iframe.src = this.config.url + \"?\" + tsText;\n                    }\n                    this.cardBodyDiv.style.display = \"block\";\n                    this.displayButton.innerHTML = '-';\n                }\n                else\n                {\n                    this.iframe.src = '/img/blmc-logo.png';\n                    this.cardBodyDiv.style.display = \"none\";\n                    this.displayButton.innerHTML = '+';\n                }\n            }\n            toggle()\n            {\n                if (this.cardBodyDiv.style.display === \"none\") \n                {\n                    let tsText = \"ts=\" + new Date().getTime().toString();\n                    if (this.config.url.indexOf(\"?\") > -1)\n                    {\n                        this.iframe.src = this.config.url + \"&\" + tsText;\n                    }\n                    else\n                    {\n                        this.iframe.src = this.config.url + \"?\" + tsText;\n                    }\n                    this.cardBodyDiv.style.display = \"block\";\n                    this.displayButton.innerHTML = '-';\n                } \n                else \n                {\n                    this.iframe.src = '/img/bl-mc-icon.png';\n                    this.cardBodyDiv.style.display = \"none\";\n                    this.displayButton.innerHTML = '+';\n                }\n                \n            }\n        }\n",
+        "template": "//iframeCard\n        class IframeCard \n        {\n            constructor(app, config)\n            {\n                this.app = app;\n                this.config = config;\n            }\n            onDocumentReady()\n            {\n                let containerRowDiv = document.createElement('div');\n                containerRowDiv.setAttribute('class', 'row iframeCard-containerRow');\n                document.getElementById('appContent').appendChild(containerRowDiv);\n                \n                let containerColDiv = document.createElement('div');\n                containerColDiv.setAttribute('class', 'col-md-12');\n                containerColDiv.setAttribute('align', 'center');\n                containerRowDiv.appendChild(containerColDiv);\n\n                let cardDiv = document.createElement('div');\n                cardDiv.setAttribute('class', 'card iframeCard');\n                containerColDiv.appendChild(cardDiv);\n                \n                let titleTable = document.createElement('table');\n                titleTable.setAttribute('width', '100%');\n                let titleRow  = document.createElement('tr');\n                let titleCol  = document.createElement('td');\n                titleCol.setAttribute('width', '85%');\n                titleCol.setAttribute('align', 'left');\n                let titleSpan  = document.createElement('span');\n                titleSpan.setAttribute('class', 'iframeCard-title');\n                titleSpan.innerHTML = this.config.title;\n                titleCol.appendChild(titleSpan);\n                titleRow.appendChild(titleCol);\n                let buttonCol  = document.createElement('td');\n                buttonCol.setAttribute('width', '15%');\n\n                this.displayButton = document.createElement('button');\n                this.displayButton.setAttribute('class', 'btn btn-block iframeCard-title-button');\n                this.displayButton.innerHTML = '-';\n                this.displayButton.onclick = event => {this.toggle()};\n                buttonCol.appendChild(this.displayButton);\n                titleRow.appendChild(buttonCol);\n\n                this.cardBodyDiv = document.createElement('div');\n\n                titleTable.appendChild(titleRow);\n                cardDiv.appendChild(titleTable);\n                cardDiv.appendChild(this.cardBodyDiv);\n\n                this.cardBodyDiv.setAttribute('style', \"width:100%; height: \" + this.config.height +  \";\");\n                this.iframe = document.createElement('iframe');\n                let keys = Object.keys(this.config.extraAttr);\n                for (var ii = 0; ii < keys.length; ++ii)\n                {\n                    this.iframe.setAttribute(keys[ii], this.config.extraAttr[keys[ii]]);\n                }\n\n                this.cardBodyDiv.appendChild(this.iframe);\n\n                if (this.config.displayOnOpen)\n                {\n                    let tsText = \"ts=\" + new Date().getTime().toString();\n                    if (this.config.url.indexOf(\"?\") > -1) \n                    {\n                        this.iframe.src = this.config.url + \"&\" + tsText;\n                    }\n                    else \n                    {\n                        this.iframe.src = this.config.url + \"?\" + tsText;\n                    }\n                    this.cardBodyDiv.style.display = \"block\";\n                    this.displayButton.innerHTML = '-';\n                }\n                else\n                {\n                    this.iframe.src = '/img/project-logo.png';\n                    this.cardBodyDiv.style.display = \"none\";\n                    this.displayButton.innerHTML = '+';\n                }\n            }\n            toggle()\n            {\n                if (this.cardBodyDiv.style.display === \"none\") \n                {\n                    let tsText = \"ts=\" + new Date().getTime().toString();\n                    if (this.config.url.indexOf(\"?\") > -1)\n                    {\n                        this.iframe.src = this.config.url + \"&\" + tsText;\n                    }\n                    else\n                    {\n                        this.iframe.src = this.config.url + \"?\" + tsText;\n                    }\n                    this.cardBodyDiv.style.display = \"block\";\n                    this.displayButton.innerHTML = '-';\n                } \n                else \n                {\n                    this.iframe.src = '/img/project-logo.png';\n                    this.cardBodyDiv.style.display = \"none\";\n                    this.displayButton.innerHTML = '+';\n                }\n                \n            }\n        }\n",
         "output": "str",
         "x": 1370,
         "y": 240,
@@ -6256,11 +6203,16 @@
                 "t": "eq",
                 "v": "getTraysFromDatabase",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "getUser",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 7,
+        "outputs": 8,
         "x": 560,
         "y": 320,
         "wires": [
@@ -6284,6 +6236,9 @@
             ],
             [
                 "6ec3b7fdba80c6cd"
+            ],
+            [
+                "a9bfa7132c055cbb"
             ]
         ]
     },
@@ -6314,10 +6269,13 @@
             "2ea36d7022a308c8",
             "d160f59369c8659d",
             "e56768527bdb29b5",
-            "81a9e955be282bd7"
+            "81a9e955be282bd7",
+            "e9b81d60792d4436",
+            "553da90b3cf947f4",
+            "0d922e7c4f862e98"
         ],
-        "x": 695,
-        "y": 460,
+        "x": 705,
+        "y": 540,
         "wires": []
     },
     {
@@ -6432,7 +6390,9 @@
         "name": "Setup Renew in",
         "links": [
             "14b7f9da.2d7c86",
-            "ca97d41d99a6b5df"
+            "ca97d41d99a6b5df",
+            "391c64861533e865",
+            "f8b52e91de395ae5"
         ],
         "x": 95,
         "y": 820,
@@ -6481,7 +6441,10 @@
             "2ea36d7022a308c8",
             "d160f59369c8659d",
             "e56768527bdb29b5",
-            "81a9e955be282bd7"
+            "81a9e955be282bd7",
+            "e9b81d60792d4436",
+            "553da90b3cf947f4",
+            "0d922e7c4f862e98"
         ],
         "x": 695,
         "y": 820,
@@ -6555,7 +6518,10 @@
             "cc72650eba9a8cf5",
             "4dd9dfe6ec66ea8a",
             "6ad67f70424638d1",
-            "50fdf86cd18d40c9"
+            "50fdf86cd18d40c9",
+            "391c64861533e865",
+            "f8b52e91de395ae5",
+            "888ae57287d6d602"
         ],
         "x": 95,
         "y": 420,
@@ -6570,6 +6536,7 @@
         "type": "link out",
         "z": "8475ab9.3d26058",
         "name": "getTray Out",
+        "mode": "link",
         "links": [
             "99b8a5b80e635f1f"
         ],
@@ -6602,7 +6569,8 @@
         "z": "8475ab9.3d26058",
         "name": "find Tray In",
         "links": [
-            "6ec3b7fdba80c6cd"
+            "6ec3b7fdba80c6cd",
+            "4bd14a4cf8f90f28"
         ],
         "x": 1235,
         "y": 740,
@@ -7398,6 +7366,19 @@
         "wires": []
     },
     {
+        "id": "a9bfa7132c055cbb",
+        "type": "link out",
+        "z": "8475ab9.3d26058",
+        "name": "getUser Out",
+        "mode": "link",
+        "links": [
+            "8e3da03c6065be2e"
+        ],
+        "x": 695,
+        "y": 460,
+        "wires": []
+    },
+    {
         "id": "6c0d5efd35302d9d",
         "type": "subflow:3fec913b325ae6ff",
         "z": "9d06e02130edba28",
@@ -7487,8 +7468,8 @@
         "type": "function",
         "z": "9d06e02130edba28",
         "name": "Parse MyApps",
-        "func": "msg.payload['config'] = JSON.stringify(msg.payload.myapps);\nmsg.payload['title'] = msg.payload.myapps.title;\nmsg.payload['icon'] = msg.payload.myapps.icon\nreturn msg;\n",
-        "outputs": 1,
+        "func": "if (!msg.payload.hasOwnProperty(\"validPassword\"))\n{\n    return[null, msg];\n}\nif (!msg.payload.validPassword)\n{\n    return[null, msg];\n}\n\nmsg.payload['config'] = JSON.stringify(msg.payload.myapps);\nmsg.payload['title'] = msg.payload.myapps.title;\nmsg.payload['icon'] = msg.payload.myapps.icon;\n\nreturn [msg,null];\n",
+        "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -7498,6 +7479,9 @@
         "wires": [
             [
                 "f749da017b9699d8"
+            ],
+            [
+                "5c4185990a817932"
             ]
         ]
     },
@@ -7605,7 +7589,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "    <div class='card' id='userCardId'>\n        <div class='card-body' align=\"center\">\n            <table width=\"100%\">\n                <tr>\n                    <td  align=\"left\">\n                         <span class='card-text' style='color:black;'>User:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='usernameId'></span>\n                    </td>\n                </tr>\n                <tr>\n                    <td  align=\"left\">\n                        <span class='card-text' style='color:black;'>Time left:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='expTimeId'></span>\n                    </td>\n                </tr>\n            </table>\n            <table width=\"100%\">\n                <tr>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"renew()\" >Renew</button>\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='downloadTokenButton' onclick=\"downloadToken()\" >Token</button>\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"logout()\" >Logout</button>\n                    </td>\n                </tr>\n            </table>\n        </div>\n    </div>\n",
+        "template": "    <div class='card' id='userCardId'>\n        <div class='card-body' align=\"center\">\n            <table width=\"100%\">\n                <tr>\n                    <td  align=\"left\">\n                         <span class='card-text' style='color:black;'>User:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='usernameId'></span>\n                    </td>\n                </tr>\n                <tr>\n                    <td  align=\"left\">\n                        <span class='card-text' style='color:black;'>Time left:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='expTimeId'></span>\n                    </td>\n                </tr>\n            </table>\n            <table width=\"100%\">\n                <tr>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"renew()\" >Renew</button>\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"logout()\" >Logout</button>\n                    </td>\n                </tr>\n            </table>\n        </div>\n    </div>\n",
         "output": "str",
         "x": 680,
         "y": 260,
@@ -7643,7 +7627,7 @@
         "fieldType": "msg",
         "format": "javascript",
         "syntax": "mustache",
-        "template": "        function getCreds()\n        {\n            var now = new Date().getTime();\n            var expDate = Number(getCookie('ExpDate'));\n            if (expDate > 0)\n            {\n                expDate = expDate - now;\n                if(expDate < 0)\n                {\n                    logout();\n                }\n                else\n                {\n                    var hours = Math.floor(expDate / 3600000);\n                    var minutes = expDate - hours * 3600000;\n                    minutes = Math.floor(minutes / 60000);\n                    var seconds = expDate - (hours * 3600000) - (minutes * 60000);\n                    seconds = Math.floor(seconds / 1000);\n                    hours = hours.toString();\n                    if (hours.length == 1) hours = '0' + hours; \n                    minutes = minutes.toString();\n                    if (minutes.length == 1) minutes = '0' + minutes; \n                    seconds = seconds.toString();\n                    if (seconds.length == 1) seconds = '0' + seconds; \n                    var timeString = hours + ':' + minutes + ':' + seconds;\n                    $('#usernameId').text(getCookie('Username'));\n                    $('#expTimeId').text(timeString);\n                }\n            }\n            else\n            {\n                $('#usernameId').text(getCookie('Username'));\n                $('#expTimeId').text('Forever');\n            }\n        }\n        function logout()\n        {\n            document.cookie = box + \"Role= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"ExpDate= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"Username= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            window.location.href = \"/\";\n        }\n        function renew()\n        {\n            var actionMsg = {};\n            sendActionMsg('renew', 'renew', actionMsg);\n        }\n        function updateCookie(msg)\n        {\n            document.cookie = box + \"Role=\" + msg.role;\n            document.cookie = box + \"ExpDate=\" + msg.expDate;\n            document.cookie = box + \"Username=\" + msg.username;\n        }\n        function downloadToken()\n        {\n            downloadString(getCookie(\"Role\"), \"text/plain\", getCookie('Username') + \"-token.txt\");\n        }\n// from https://gist.github.com/danallison/3ec9d5314788b337b682\n        function downloadString(text, fileType, fileName) \n        {\n            var blob = new Blob([text], { type: fileType });\n            \n            var a = document.createElement('a');\n            a.download = fileName;\n            a.href = URL.createObjectURL(blob);\n            a.dataset.downloadurl = [fileType, a.download, a.href].join(':');\n            a.style.display = \"none\";\n            document.body.appendChild(a);\n            a.click();\n            document.body.removeChild(a);\n            setTimeout(function() { URL.revokeObjectURL(a.href); }, 1500);\n        }",
+        "template": "        function getCreds()\n        {\n            var now = new Date().getTime();\n            var expDate = Number(getCookie('ExpDate'));\n            if (expDate > 0)\n            {\n                expDate = expDate - now;\n                if(expDate < 0)\n                {\n                    logout();\n                }\n                else\n                {\n                    var hours = Math.floor(expDate / 3600000);\n                    var minutes = expDate - hours * 3600000;\n                    minutes = Math.floor(minutes / 60000);\n                    var seconds = expDate - (hours * 3600000) - (minutes * 60000);\n                    seconds = Math.floor(seconds / 1000);\n                    hours = hours.toString();\n                    if (hours.length == 1) hours = '0' + hours; \n                    minutes = minutes.toString();\n                    if (minutes.length == 1) minutes = '0' + minutes; \n                    seconds = seconds.toString();\n                    if (seconds.length == 1) seconds = '0' + seconds; \n                    var timeString = hours + ':' + minutes + ':' + seconds;\n                    $('#usernameId').text(getCookie('Username'));\n                    $('#expTimeId').text(timeString);\n                }\n            }\n            else\n            {\n                $('#usernameId').text(getCookie('Username'));\n                $('#expTimeId').text('Forever');\n            }\n        }\n        function logout()\n        {\n            document.cookie = box + \"Role= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"ExpDate= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"Username= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            window.location.href = \"/\";\n        }\n        function renew()\n        {\n            var actionMsg = {};\n            sendActionMsg('renew', 'renew', actionMsg);\n        }\n        function updateCookie(msg)\n        {\n            document.cookie = box + \"Role=\" + msg.role;\n            document.cookie = box + \"ExpDate=\" + msg.expDate;\n            document.cookie = box + \"Username=\" + msg.username;\n        }\n",
         "output": "str",
         "x": 690,
         "y": 180,
@@ -7671,7 +7655,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!-- navBar -->\n    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/blmc-logo.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">\n                        <span>{{{payload.title}}}</span>\n                    </h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <img src=\"{{payload.icon}}\" height=\"75px\"/>\n                </td>\n            </tr>\n        </table>\n    </div>",
+        "template": "<!-- navBar -->\n    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/project-logo.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">\n                        <span>{{{payload.title}}}</span>\n                    </h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <img src=\"{{payload.icon}}\" height=\"75px\"/>\n                </td>\n            </tr>\n        </table>\n    </div>",
         "output": "str",
         "x": 680,
         "y": 340,
@@ -7703,6 +7687,163 @@
         "wires": [
             [
                 "8ee067612d327829"
+            ]
+        ]
+    },
+    {
+        "id": "5012ee4f8860105e",
+        "type": "template",
+        "z": "9d06e02130edba28",
+        "name": "Body",
+        "field": "payload.body",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!-- Body HTML -->\n   <p></p>\n   <h1 style=\"text-align:center;color:white\">Redirecting...</h1>\n",
+        "output": "str",
+        "x": 670,
+        "y": 560,
+        "wires": [
+            [
+                "568288857ebaefaa"
+            ]
+        ]
+    },
+    {
+        "id": "f2334d9f97a6ec3d",
+        "type": "template",
+        "z": "9d06e02130edba28",
+        "name": "Title",
+        "field": "payload.title",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Stale Password",
+        "output": "str",
+        "x": 670,
+        "y": 480,
+        "wires": [
+            [
+                "b2d7fdadecbc5e58"
+            ]
+        ]
+    },
+    {
+        "id": "b2d7fdadecbc5e58",
+        "type": "template",
+        "z": "9d06e02130edba28",
+        "name": "navBarIcon",
+        "field": "payload.navBarIcon",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "lock.png",
+        "output": "str",
+        "x": 690,
+        "y": 520,
+        "wires": [
+            [
+                "5012ee4f8860105e"
+            ]
+        ]
+    },
+    {
+        "id": "da2f89ff888db402",
+        "type": "template",
+        "z": "9d06e02130edba28",
+        "name": "HTML",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n{{{payload.head}}}\n  </head>\n  <body>\n{{{payload.navBar}}}\n{{{payload.body}}}\n{{{payload.foot}}}\n  </body>\n</html>",
+        "output": "str",
+        "x": 670,
+        "y": 720,
+        "wires": [
+            [
+                "02cc1f3cb66ad35e"
+            ]
+        ]
+    },
+    {
+        "id": "85fabf81d431ccae",
+        "type": "template",
+        "z": "9d06e02130edba28",
+        "name": "Foot",
+        "field": "payload.foot",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "    <script src=\"/scripts/popper.js\"></script>\n    <script src=\"/scripts/bootstrap.js\"></script>",
+        "output": "str",
+        "x": 670,
+        "y": 680,
+        "wires": [
+            [
+                "da2f89ff888db402"
+            ]
+        ]
+    },
+    {
+        "id": "3045745067c4b9ba",
+        "type": "template",
+        "z": "9d06e02130edba28",
+        "name": "Head",
+        "field": "payload.head",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/img/favicon.ico?v=4\" type=\"image/x-icon\"/>\n    <title>{{payload.title}}</title>\n    <link rel=\"stylesheet\" href=\"/css/bootstrap.css\"/>\n    <link rel=\"stylesheet\" href=\"/jquery/jquery-ui.css\"/>\n    <link rel=\"stylesheet\" href=\"/jquery/jquery-ui-timepicker-addon.css\"/>\n    <script src=\"/jquery/jquery.js\"></script>\n    <script src=\"/jquery/jquery-ui.js\"></script>\n    <script src=\"/jquery/jquery-ui-timepicker-addon.js\"></script>\n    <script src=\"/scripts/plotly-latest.min.js\"></script>\n    <script src=\"/scripts/pako.min.js\"></script>\n    <style>\n{{{payload.css}}}\n    </style>\n    <script>\n    </script>\n    <script>\n{{{payload.javascript}}}\n    </script>\n",
+        "output": "str",
+        "x": 670,
+        "y": 640,
+        "wires": [
+            [
+                "85fabf81d431ccae"
+            ]
+        ]
+    },
+    {
+        "id": "02cc1f3cb66ad35e",
+        "type": "http response",
+        "z": "9d06e02130edba28",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "5c4185990a817932",
+        "type": "template",
+        "z": "9d06e02130edba28",
+        "name": "JavaScript",
+        "field": "payload.javascript",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "        $( document ).ready(function()\n        {\n            setTimeout(function(){location.replace(\"/newCreds\");}, 3000);\n        });\n \n",
+        "output": "str",
+        "x": 690,
+        "y": 440,
+        "wires": [
+            [
+                "f2334d9f97a6ec3d"
+            ]
+        ]
+    },
+    {
+        "id": "568288857ebaefaa",
+        "type": "subflow:c57c2f9e65e6cb70",
+        "z": "9d06e02130edba28",
+        "name": "",
+        "x": 690,
+        "y": 600,
+        "wires": [
+            [
+                "3045745067c4b9ba"
             ]
         ]
     },
@@ -7993,7 +8134,7 @@
         "server": "e2674addbc6ccaef",
         "client": "",
         "x": 1120,
-        "y": 680,
+        "y": 660,
         "wires": []
     },
     {
@@ -8056,7 +8197,7 @@
         "y": 100,
         "wires": [
             [
-                "19310ace.c992d5"
+                "18594a55495ad8ec"
             ]
         ]
     },
@@ -8074,7 +8215,7 @@
         ]
     },
     {
-        "id": "19310ace.c992d5",
+        "id": "18594a55495ad8ec",
         "type": "template",
         "z": "a858ad3a.95706",
         "name": "title",
@@ -8088,12 +8229,12 @@
         "y": 100,
         "wires": [
             [
-                "680bc28.3fd903c"
+                "69c4fb5a5466502e"
             ]
         ]
     },
     {
-        "id": "7bd0e32c.fe3bdc",
+        "id": "a78c1d180183f35c",
         "type": "template",
         "z": "a858ad3a.95706",
         "name": "javascript",
@@ -8107,12 +8248,12 @@
         "y": 100,
         "wires": [
             [
-                "bb7837ce.8d7338"
+                "f66adbb3cbfbbab2"
             ]
         ]
     },
     {
-        "id": "680bc28.3fd903c",
+        "id": "69c4fb5a5466502e",
         "type": "template",
         "z": "a858ad3a.95706",
         "name": "body",
@@ -8126,12 +8267,12 @@
         "y": 100,
         "wires": [
             [
-                "7bd0e32c.fe3bdc"
+                "a78c1d180183f35c"
             ]
         ]
     },
     {
-        "id": "4eb98e2d.07b03",
+        "id": "38d5492f222ec15f",
         "type": "template",
         "z": "a858ad3a.95706",
         "name": "navBar",
@@ -8139,7 +8280,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<!-- navBar -->\n    <div class=\"jumbotron navbar-fixed-top\" style=\"background-color:var(--color4);color: var(--color1);padding-top:10px; padding-bottom:10px;\" width=\"100%\" >\n        <div class='row'>\n            <div class='col-md-2' align='left'>\n                <img src=\"/img/logo-MAX-IV.png\" height=\"100px\"/>\n            </div>\n            <div class='col-md-8' align='center'>\n                <h1 class=\"jumbotron-title big-text bold-text\">\n                    <span>BL-MaxIV</span>\n                </h1>\n            </div>\n            <div class='col-md-2' align='right'>\n                <a href='/myapps'>\n                    <img src=\"/img/apps.png\" height=\"75px\"/>\n                </a>                \n            </div>\n        </div>\n    </div>\n",
+        "template": "<!-- navBar -->\n    <div class=\"jumbotron navbar-fixed-top\" style=\"background-color:var(--color4);color: var(--color1);padding-top:10px; padding-bottom:10px;\" width=\"100%\" >\n        <div class='row'>\n            <div class='col-md-2' align='left'>\n                <img src=\"/img/project-logo.png\" height=\"100px\"/>\n            </div>\n            <div class='col-md-8' align='center'>\n                <h1 class=\"jumbotron-title big-text bold-text\">\n                    <span>BL-MaxIV</span>\n                </h1>\n            </div>\n            <div class='col-md-2' align='right'>\n                <a href='/myapps'>\n                    <img src=\"/img/apps.png\" height=\"75px\"/>\n                </a>                \n            </div>\n        </div>\n    </div>\n",
         "output": "str",
         "x": 940,
         "y": 100,
@@ -8150,7 +8291,7 @@
         ]
     },
     {
-        "id": "bb7837ce.8d7338",
+        "id": "f66adbb3cbfbbab2",
         "type": "template",
         "z": "a858ad3a.95706",
         "name": "CSS",
@@ -8164,7 +8305,7 @@
         "y": 100,
         "wires": [
             [
-                "4eb98e2d.07b03"
+                "38d5492f222ec15f"
             ]
         ]
     },
@@ -10278,6 +10419,781 @@
         ]
     },
     {
+        "id": "ab2c13961a6e89f2",
+        "type": "subflow:3fec913b325ae6ff",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "x": 140,
+        "y": 1980,
+        "wires": [
+            [
+                "2fb5c42939e52737"
+            ]
+        ]
+    },
+    {
+        "id": "b064bb2b771f4f9b",
+        "type": "http in",
+        "z": "90f83725.6dae08",
+        "name": "/tokenReq",
+        "url": "/tokenReq",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 1940,
+        "wires": [
+            [
+                "ab2c13961a6e89f2"
+            ]
+        ]
+    },
+    {
+        "id": "2fb5c42939e52737",
+        "type": "function",
+        "z": "90f83725.6dae08",
+        "name": "Allowed Roles",
+        "func": "msg.payload.allowedRoles = ['tokenReq'];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 2020,
+        "wires": [
+            [
+                "cc68aa5cfef63b3b"
+            ]
+        ]
+    },
+    {
+        "id": "964504ec4a08727a",
+        "type": "websocket in",
+        "z": "90f83725.6dae08",
+        "name": "/tokenReq/websocket",
+        "server": "fe13198f113c97d2",
+        "client": "",
+        "x": 160,
+        "y": 2140,
+        "wires": [
+            [
+                "391c64861533e865"
+            ]
+        ]
+    },
+    {
+        "id": "772ffa56da21cb25",
+        "type": "websocket out",
+        "z": "90f83725.6dae08",
+        "name": "/tokenReq/websocket",
+        "server": "fe13198f113c97d2",
+        "client": "",
+        "x": 380,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "391c64861533e865",
+        "type": "link out",
+        "z": "90f83725.6dae08",
+        "name": "tokenReq websocket out",
+        "mode": "link",
+        "links": [
+            "be962d884f5fbb6e",
+            "f4326ad5.3e47e8"
+        ],
+        "x": 305,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "e9b81d60792d4436",
+        "type": "link in",
+        "z": "90f83725.6dae08",
+        "name": "tokenReq websocket out",
+        "links": [
+            "1e710224.de723e",
+            "224d9b05.f92104"
+        ],
+        "x": 235,
+        "y": 2220,
+        "wires": [
+            [
+                "772ffa56da21cb25"
+            ]
+        ]
+    },
+    {
+        "id": "8047a363c57233ff",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "body",
+        "field": "payload.body",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!-- Body HTML -->\n{{{payload.html.user}}}\n",
+        "output": "str",
+        "x": 650,
+        "y": 2140,
+        "wires": [
+            [
+                "08721a1a1f933632"
+            ]
+        ]
+    },
+    {
+        "id": "c4b44ca1facc85b6",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "javascript",
+        "field": "payload.javascript",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "{{{payload.script.global}}}\n{{{payload.script.user}}}\n",
+        "output": "str",
+        "x": 660,
+        "y": 2060,
+        "wires": [
+            [
+                "d63dcc6a24351c43"
+            ]
+        ]
+    },
+    {
+        "id": "d63dcc6a24351c43",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "html.user",
+        "field": "payload.html.user",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "    <div class='card' id='userCardId'>\n        <div class='card-body' align=\"center\">\n            <table width=\"100%\">\n                <tr>\n                    <td  align=\"left\">\n                         <span class='card-text' style='color:black;'>User:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='usernameId'></span>\n                    </td>\n                </tr>\n                <tr>\n                    <td  align=\"left\">\n                        <span class='card-text' style='color:black;'>Time left:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='expTimeId'></span>\n                    </td>\n                </tr>\n            </table>\n            <table width=\"100%\">\n                <tr>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"renew()\" >Renew</button>\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='downloadTokenButton' onclick=\"downloadToken()\" >Token</button>\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"logout()\" >Logout</button>\n                    </td>\n                </tr>\n            </table>\n        </div>\n    </div>\n",
+        "output": "str",
+        "x": 660,
+        "y": 2100,
+        "wires": [
+            [
+                "8047a363c57233ff"
+            ]
+        ]
+    },
+    {
+        "id": "d2d71b17d52f68f9",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "script.global",
+        "field": "payload.script.global",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "        useWebSockets(true);\n        function onDocumentReady()\n        {\n            getCreds();\n            setInterval(function(){getCreds();}, 1000);\n            \n        }\n\n        function onWebSocketOpen()\n        {\n        }\n        function onWebSocketClose()\n        {\n            \n        }\n        function onWebSocketMessage(msg)\n        {\n            switch(msg.topic)\n            {\n                case 'renew':\n                    if (msg.userID == userID)\n                    {\n                        updateCookie(msg);\n                    }\n                    break;\n                case 'permissionError':\n                    if (msg.userID == userID)\n                    {\n                        acknowledgeDialog('Permission', 'Error', msg.payload);\n                    }\n                    break;\n                case 'loginExpired':\n                    if (msg.userID == userID)\n                    {\n                       location.reload();\n                    }\n                    break;\n                default:\n                    break;\n            }\n        }\n",
+        "output": "str",
+        "x": 670,
+        "y": 1980,
+        "wires": [
+            [
+                "96e1e4e951adc012"
+            ]
+        ]
+    },
+    {
+        "id": "96e1e4e951adc012",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "script.user",
+        "field": "payload.script.user",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "        function getCreds()\n        {\n            var now = new Date().getTime();\n            var expDate = Number(getCookie('ExpDate'));\n            if (expDate > 0)\n            {\n                expDate = expDate - now;\n                if(expDate < 0)\n                {\n                    logout();\n                }\n                else\n                {\n                    var hours = Math.floor(expDate / 3600000);\n                    var minutes = expDate - hours * 3600000;\n                    minutes = Math.floor(minutes / 60000);\n                    var seconds = expDate - (hours * 3600000) - (minutes * 60000);\n                    seconds = Math.floor(seconds / 1000);\n                    hours = hours.toString();\n                    if (hours.length == 1) hours = '0' + hours; \n                    minutes = minutes.toString();\n                    if (minutes.length == 1) minutes = '0' + minutes; \n                    seconds = seconds.toString();\n                    if (seconds.length == 1) seconds = '0' + seconds; \n                    var timeString = hours + ':' + minutes + ':' + seconds;\n                    $('#usernameId').text(getCookie('Username'));\n                    $('#expTimeId').text(timeString);\n                }\n            }\n            else\n            {\n                $('#usernameId').text(getCookie('Username'));\n                $('#expTimeId').text('Forever');\n            }\n        }\n        function logout()\n        {\n            document.cookie = box + \"Role= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"ExpDate= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"Username= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            window.location.href = \"/\";\n        }\n        function renew()\n        {\n            var actionMsg = {};\n            sendActionMsg('renew', 'renew', actionMsg);\n        }\n        function updateCookie(msg)\n        {\n            document.cookie = box + \"Role=\" + msg.role;\n            document.cookie = box + \"ExpDate=\" + msg.expDate;\n            document.cookie = box + \"Username=\" + msg.username;\n        }\n        function downloadToken()\n        {\n            downloadString(getCookie(\"Role\"), \"text/plain\", getCookie('Username') + \"-token.txt\");\n        }\n// from https://gist.github.com/danallison/3ec9d5314788b337b682\n        function downloadString(text, fileType, fileName) \n        {\n            var blob = new Blob([text], { type: fileType });\n            \n            var a = document.createElement('a');\n            a.download = fileName;\n            a.href = URL.createObjectURL(blob);\n            a.dataset.downloadurl = [fileType, a.download, a.href].join(':');\n            a.style.display = \"none\";\n            document.body.appendChild(a);\n            a.click();\n            document.body.removeChild(a);\n            setTimeout(function() { URL.revokeObjectURL(a.href); }, 1500);\n        }",
+        "output": "str",
+        "x": 670,
+        "y": 2020,
+        "wires": [
+            [
+                "c4b44ca1facc85b6"
+            ]
+        ]
+    },
+    {
+        "id": "87b3bb954f253eb7",
+        "type": "subflow:ca529822.9112f8",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "x": 970,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "08721a1a1f933632",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "navBar",
+        "field": "payload.navBar",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!-- navBar -->\n    <div class=\"jumbotron\" width=\"100%\">\n        <table width=\"100%\">\n            <tr>\n                <td style=\"text-align:left; vertical-align:middle;\"  width=\"20%\">\n                    <a href='/' >\n                        <img src=\"/img/project-logo.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n                <td width=\"60%\" style=\"text-align:center; vertical-align:middle;\">\n                    <h1 class=\"jumbotron-title\">\n                        <img src=\"/img/ticket.png\" height=\"75px\"/>\n                        <span>{{{payload.title}}}</span>\n                    </h1>\n                </td>\n                <td style=\"text-align:right; vertical-align:middle;\" width=\"20%\">\n                    <a href='/myapps' >\n                        <img src=\"/img/apps.png\" height=\"75px\"/>\n                    </a>                \n                </td>\n            </tr>\n        </table>\n    </div>",
+        "output": "str",
+        "x": 660,
+        "y": 2180,
+        "wires": [
+            [
+                "6f7cf40814e0010f"
+            ]
+        ]
+    },
+    {
+        "id": "6f7cf40814e0010f",
+        "type": "subflow:74b74739cc6e49af",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "x": 820,
+        "y": 2180,
+        "wires": [
+            [
+                "87b3bb954f253eb7"
+            ]
+        ]
+    },
+    {
+        "id": "cc68aa5cfef63b3b",
+        "type": "subflow:2d027d69.1fdeb2",
+        "z": "90f83725.6dae08",
+        "x": 140,
+        "y": 2060,
+        "wires": [
+            [
+                "c87ec7f3f92ea7d3"
+            ]
+        ]
+    },
+    {
+        "id": "c87ec7f3f92ea7d3",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "title",
+        "field": "payload.title",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Token Request",
+        "output": "str",
+        "x": 650,
+        "y": 1940,
+        "wires": [
+            [
+                "d2d71b17d52f68f9"
+            ]
+        ]
+    },
+    {
+        "id": "88c99e97e77482ab",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "body",
+        "field": "payload.body",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!-- Body HTML -->\n    <div width=\"100%\"  style='padding-bottom:25px;'>\n        <div class='card'>\n            <div class='card-body' align=\"center\">\n                <table align='center'>\n                    <tr>\n                        <td>\n                            <span  class=\"big-text\">Old Password</span>\n                        </td>\n                        <td>\n                            <input type=\"password\" class=\"big-text\" id=\"oldPasswordID\"/>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            <span class=\"big-text\">New Password</span>\n                        </td>\n                        <td>\n                            <input type=\"password\" class=\"big-text\"  id=\"newPassword1ID\"/>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            <span class=\"big-text\">New Password again</span>\n                        </td>\n                        <td>\n                            <input type=\"password\" class=\"big-text\"  id=\"newPassword2ID\"/>\n                        </td>\n                    </tr>\n                     <tr>\n                        <td>\n                        </td>\n                        <td>\n                            <button class='btn btn-block card-button big-text' id='sendCredsButton' onclick=\"sendCreds()\" >Enter</button>\n                        </td>\n                    </tr>\n                </table> \n            </div>\n        </div>\n    </div>\n{{{payload.html.user}}}\n",
+        "output": "str",
+        "x": 1310,
+        "y": 2500,
+        "wires": [
+            [
+                "86cc8e3f0a1d0a3c"
+            ]
+        ]
+    },
+    {
+        "id": "568e1c4a9148c4b4",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "Title",
+        "field": "payload.title",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "New Credentials",
+        "output": "str",
+        "x": 850,
+        "y": 2500,
+        "wires": [
+            [
+                "caa574a43276dfbc"
+            ]
+        ]
+    },
+    {
+        "id": "27118a3de937c1a7",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "script.global",
+        "field": "payload.script.global",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "        useWebSockets(true);\n        function onDocumentReady()\n        {\n            getCreds();\n            setInterval(function(){getCreds();}, 1000);\n            \n        }\n\n        function onWebSocketOpen()\n        {\n        }\n        function onWebSocketClose()\n        {\n            \n        }\n        function onWebSocketMessage(msg)\n        {\n            switch(msg.topic)\n            {\n                case 'renew':\n                    if (msg.userID == userID)\n                    {\n                        updateCookie(msg);\n                    }\n                    break;\n                case 'permissionError':\n                    if (msg.userID == userID)\n                    {\n                        acknowledgeDialog('Permission', 'Error', msg.payload);\n                    }\n                    break;\n                case 'loginExpired':\n                    if (msg.userID == userID)\n                    {\n                       location.reload();\n                    }\n                    break;\n                case 'getUser':\n                    if (msg.userID == userID)\n                    {\n                       if (msg.payload)\n                       {\n                           acknowledgeDialog(\"Password\", \"Success\", \"Password changed. Logging out...\");\n                           setTimeout(function () {logout();},5000);\n                       }\n                       else\n                       {\n                           acknowledgeDialog(\"Password\", \"Error\", \"Wrong password\");\n                       }\n                    }\n                    break;\n                default:\n                    break;\n            }\n        }\n        function sendCreds()\n        {\n                let newPw1 = $(\"#newPassword1ID\").val();\n                let newPw2 = $(\"#newPassword2ID\").val();\n                let oldPw  = $(\"#oldPasswordID\").val();\n                $(\"#newPassword1ID\").val(\"\");\n                $(\"#newPassword2ID\").val(\"\");\n                $(\"#oldPasswordID\").val(\"\");\n \n                if (newPw1 != newPw2)\n                {\n                        acknowledgeDialog(\"Password\", \"Error\", \"New passwords do not match.\");\n                        return;\n                }\n                if (newPw1 == oldPw)\n                {\n                        acknowledgeDialog(\"Password\", \"Error\", \"New password is the same as the old.\");\n                        return;\n                }\n                if (newPw1.length < 8)\n                {\n                        acknowledgeDialog(\"Password\", \"Error\", \"New password must be at least 8 characters long.\");\n                        return;\n                }\n                 let actionMsg =\n                {\n                     username: getCookie('Username'),\n                     oldPw:  oldPw,\n                     newPw:  newPw1\n                };\n                sendActionMsg('getUser', 'readDatabase', actionMsg);\n\n                 \n        }\n",
+        "output": "str",
+        "x": 370,
+        "y": 2500,
+        "wires": [
+            [
+                "09d8aca686d920ac"
+            ]
+        ]
+    },
+    {
+        "id": "caa574a43276dfbc",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "navBarIcon",
+        "field": "payload.navBarIcon",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "lock.png",
+        "output": "str",
+        "x": 990,
+        "y": 2500,
+        "wires": [
+            [
+                "5e14072080d6b6ae"
+            ]
+        ]
+    },
+    {
+        "id": "86cc8e3f0a1d0a3c",
+        "type": "subflow:c57c2f9e65e6cb70",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "x": 1570,
+        "y": 2500,
+        "wires": [
+            [
+                "f87c862d0e63070f"
+            ]
+        ]
+    },
+    {
+        "id": "f87c862d0e63070f",
+        "type": "subflow:ca529822.9112f8",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "x": 1710,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "26b1c59b8d41c3d3",
+        "type": "subflow:3fec913b325ae6ff",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "x": 160,
+        "y": 2420,
+        "wires": [
+            [
+                "b0ca3cd84c7a6d1d"
+            ]
+        ]
+    },
+    {
+        "id": "8ac72ec289b983fe",
+        "type": "http in",
+        "z": "90f83725.6dae08",
+        "name": "/newCreds",
+        "url": "/newCreds",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 2380,
+        "wires": [
+            [
+                "26b1c59b8d41c3d3"
+            ]
+        ]
+    },
+    {
+        "id": "b0ca3cd84c7a6d1d",
+        "type": "function",
+        "z": "90f83725.6dae08",
+        "name": "Allowed Roles",
+        "func": "msg.payload.allowedRoles = ['newCreds'];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 2460,
+        "wires": [
+            [
+                "6c5e3ca9a71c80ee"
+            ]
+        ]
+    },
+    {
+        "id": "6c5e3ca9a71c80ee",
+        "type": "subflow:2d027d69.1fdeb2",
+        "z": "90f83725.6dae08",
+        "x": 160,
+        "y": 2500,
+        "wires": [
+            [
+                "27118a3de937c1a7"
+            ]
+        ]
+    },
+    {
+        "id": "b6c87ad950d3db7e",
+        "type": "websocket in",
+        "z": "90f83725.6dae08",
+        "name": "/newCreds/websocket",
+        "server": "17ed7c0596fc5a5b",
+        "client": "",
+        "x": 180,
+        "y": 2600,
+        "wires": [
+            [
+                "888ae57287d6d602"
+            ]
+        ]
+    },
+    {
+        "id": "198f65f50b8256e7",
+        "type": "websocket out",
+        "z": "90f83725.6dae08",
+        "name": "/newCreds/websocket",
+        "server": "17ed7c0596fc5a5b",
+        "client": "",
+        "x": 980,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "888ae57287d6d602",
+        "type": "link out",
+        "z": "90f83725.6dae08",
+        "name": "newCreds websocket out",
+        "mode": "link",
+        "links": [
+            "be962d884f5fbb6e"
+        ],
+        "x": 335,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "0d922e7c4f862e98",
+        "type": "link in",
+        "z": "90f83725.6dae08",
+        "name": "newCreds websocket out",
+        "links": [
+            "1e710224.de723e",
+            "224d9b05.f92104",
+            "7a6b0d267f0d03ef"
+        ],
+        "x": 835,
+        "y": 2600,
+        "wires": [
+            [
+                "198f65f50b8256e7"
+            ]
+        ]
+    },
+    {
+        "id": "3dd8666e0327e4c4",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "javascript",
+        "field": "payload.javascript",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "{{{payload.script.global}}}\n{{{payload.script.user}}}\n",
+        "output": "str",
+        "x": 700,
+        "y": 2500,
+        "wires": [
+            [
+                "568e1c4a9148c4b4"
+            ]
+        ]
+    },
+    {
+        "id": "09d8aca686d920ac",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "script.user",
+        "field": "payload.script.user",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "        function getCreds()\n        {\n            var now = new Date().getTime();\n            var expDate = Number(getCookie('ExpDate'));\n            if (expDate > 0)\n            {\n                expDate = expDate - now;\n                if(expDate < 0)\n                {\n                    logout();\n                }\n                else\n                {\n                    var hours = Math.floor(expDate / 3600000);\n                    var minutes = expDate - hours * 3600000;\n                    minutes = Math.floor(minutes / 60000);\n                    var seconds = expDate - (hours * 3600000) - (minutes * 60000);\n                    seconds = Math.floor(seconds / 1000);\n                    hours = hours.toString();\n                    if (hours.length == 1) hours = '0' + hours; \n                    minutes = minutes.toString();\n                    if (minutes.length == 1) minutes = '0' + minutes; \n                    seconds = seconds.toString();\n                    if (seconds.length == 1) seconds = '0' + seconds; \n                    var timeString = hours + ':' + minutes + ':' + seconds;\n                    $('#usernameId').text(getCookie('Username'));\n                    $('#expTimeId').text(timeString);\n                }\n            }\n            else\n            {\n                $('#usernameId').text(getCookie('Username'));\n                $('#expTimeId').text('Forever');\n            }\n        }\n        function logout()\n        {\n            document.cookie = box + \"Role= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"ExpDate= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            document.cookie = box + \"Username= ; expires = Thu, 01 Jan 1970 00:00:00 GMT\";\n            window.location.href = \"/\";\n        }\n        function renew()\n        {\n            var actionMsg = {};\n            sendActionMsg('renew', 'renew', actionMsg);\n        }\n        function updateCookie(msg)\n        {\n            document.cookie = box + \"Role=\" + msg.role;\n            document.cookie = box + \"ExpDate=\" + msg.expDate;\n            document.cookie = box + \"Username=\" + msg.username;\n        }\n",
+        "output": "str",
+        "x": 550,
+        "y": 2500,
+        "wires": [
+            [
+                "3dd8666e0327e4c4"
+            ]
+        ]
+    },
+    {
+        "id": "5e14072080d6b6ae",
+        "type": "template",
+        "z": "90f83725.6dae08",
+        "name": "html.user",
+        "field": "payload.html.user",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "    <div class='card' id='userCardId'>\n        <div class='card-body' align=\"center\">\n            <table width=\"100%\">\n                <tr>\n                    <td  align=\"left\">\n                         <span class='card-text' style='color:black;'>User:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='usernameId'></span>\n                    </td>\n                </tr>\n                <tr>\n                    <td  align=\"left\">\n                        <span class='card-text' style='color:black;'>Time left:</span>\n                    </td>\n                    <td  align=\"right\">\n                         <span class='card-text' id='expTimeId'></span>\n                    </td>\n                </tr>\n            </table>\n            <table width=\"100%\">\n                <tr>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"renew()\" >Renew</button>\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                    </td>\n                    <td width=\"5%\"></td>\n                    <td width=\"30%\">\n                        <button class='btn btn-block card-button big-text' id='logoutButton' onclick=\"logout()\" >Logout</button>\n                    </td>\n                </tr>\n            </table>\n        </div>\n    </div>\n",
+        "output": "str",
+        "x": 1140,
+        "y": 2500,
+        "wires": [
+            [
+                "88c99e97e77482ab"
+            ]
+        ]
+    },
+    {
+        "id": "8e3da03c6065be2e",
+        "type": "link in",
+        "z": "90f83725.6dae08",
+        "name": "getUser return",
+        "links": [
+            "a9bfa7132c055cbb"
+        ],
+        "x": 95,
+        "y": 2780,
+        "wires": [
+            [
+                "2ba402e1d95946ef"
+            ]
+        ]
+    },
+    {
+        "id": "20693aa454cd9074",
+        "type": "mongodb3 in",
+        "z": "90f83725.6dae08",
+        "service": "_ext_",
+        "configNode": "9cd5ff5e.caf86",
+        "name": "Find User",
+        "collection": "users",
+        "operation": "findOne",
+        "x": 370,
+        "y": 2780,
+        "wires": [
+            [
+                "cb339dbd6a5af9db"
+            ]
+        ]
+    },
+    {
+        "id": "2ba402e1d95946ef",
+        "type": "function",
+        "z": "90f83725.6dae08",
+        "name": "Find User Query",
+        "func": "var queryFilter = \n{\n    username: msg.payload.username    \n}\nmsg['creds'] = JSON.parse(JSON.stringify(msg.payload));\nmsg.payload = [queryFilter];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 2780,
+        "wires": [
+            [
+                "20693aa454cd9074"
+            ]
+        ]
+    },
+    {
+        "id": "a23985a6f0dc2c46",
+        "type": "bcrypt",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "action": "verify",
+        "field": "payload.txt",
+        "hash": "payload.hash",
+        "target": "",
+        "assignment": "replace",
+        "match": "match",
+        "outputs": 1,
+        "rounds": 10,
+        "x": 690,
+        "y": 2780,
+        "wires": [
+            [
+                "ff6eb99b3745b379"
+            ]
+        ]
+    },
+    {
+        "id": "cb339dbd6a5af9db",
+        "type": "function",
+        "z": "90f83725.6dae08",
+        "name": "Check OldPw",
+        "func": "msg['userEntry'] = JSON.parse(JSON.stringify(msg.payload));\nmsg.payload = \n{\n    txt     :   msg.creds.oldPw,\n    hash    :   msg.userEntry.password\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2780,
+        "wires": [
+            [
+                "a23985a6f0dc2c46"
+            ]
+        ]
+    },
+    {
+        "id": "ff6eb99b3745b379",
+        "type": "switch",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "property": "match",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 840,
+        "y": 2780,
+        "wires": [
+            [
+                "cb70a6c70a1f6f0f"
+            ],
+            [
+                "4375252fd2d6d54a"
+            ]
+        ]
+    },
+    {
+        "id": "4375252fd2d6d54a",
+        "type": "function",
+        "z": "90f83725.6dae08",
+        "name": "send badPassword msg",
+        "func": "var newMsg = \n{\n    topic   :   msg.route,\n    payload:\n    {\n        topic   :   msg.topic,\n        userID  :   msg.userID,\n        payload :   false\n    }\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 2820,
+        "wires": [
+            [
+                "7a6b0d267f0d03ef"
+            ]
+        ]
+    },
+    {
+        "id": "cb70a6c70a1f6f0f",
+        "type": "bcrypt",
+        "z": "90f83725.6dae08",
+        "name": "",
+        "action": "encrypt",
+        "field": "creds.newPw",
+        "hash": "payload.hash",
+        "target": "",
+        "assignment": "replace",
+        "match": "match",
+        "outputs": 1,
+        "rounds": 10,
+        "x": 980,
+        "y": 2740,
+        "wires": [
+            [
+                "7ba150039f6e1302"
+            ]
+        ]
+    },
+    {
+        "id": "e70655b52aaa8052",
+        "type": "mongodb3 in",
+        "z": "90f83725.6dae08",
+        "service": "_ext_",
+        "configNode": "9cd5ff5e.caf86",
+        "name": "",
+        "collection": "users",
+        "operation": "updateOne",
+        "x": 1330,
+        "y": 2740,
+        "wires": [
+            [
+                "3fbc5fa7a87c1437"
+            ]
+        ]
+    },
+    {
+        "id": "7ba150039f6e1302",
+        "type": "function",
+        "z": "90f83725.6dae08",
+        "name": "Update PW",
+        "func": "msg.payload = \n[\n    {username : msg.creds.username},\n    { $set: {password: msg.creds.newPw, validPassword: true}}\n]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 2740,
+        "wires": [
+            [
+                "e70655b52aaa8052"
+            ]
+        ]
+    },
+    {
+        "id": "3fbc5fa7a87c1437",
+        "type": "function",
+        "z": "90f83725.6dae08",
+        "name": "send goodPassword msg",
+        "func": "var newMsg = \n{\n    topic   :   msg.route,\n    payload:\n    {\n        topic   :   msg.topic,\n        userID  :   msg.userID,\n        payload :   true\n    }\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 2740,
+        "wires": [
+            [
+                "7a6b0d267f0d03ef"
+            ]
+        ]
+    },
+    {
+        "id": "7a6b0d267f0d03ef",
+        "type": "link out",
+        "z": "90f83725.6dae08",
+        "name": "pw change out",
+        "mode": "link",
+        "links": [
+            "0d922e7c4f862e98"
+        ],
+        "x": 1795,
+        "y": 2820,
+        "wires": []
+    },
+    {
         "id": "d8aea031.7f89d",
         "type": "http in",
         "z": "dc20c6e0.0feb98",
@@ -11643,7 +12559,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "    <div width=\"100%\" style='padding-bottom:25px;'>\n        <div class='card'>\n            <div class='card-body' align=\"center\">\n                <div class='row'>\n                    <div class='col-md-12'>\n                        <table width=\"100%\">\n                            <tr>\n                                <td width=\"33%\" align=\"center\"><span class=\"tableHeading \">Tray</span></td>\n                                <td width=\"33%\" align=\"center\"><span class=\"tableHeading \">Name</span></td>\n                                <td width=\"33%\" align=\"center\"><span class=\"tableHeading \">Cube</span></td>\n                            </tr>\n                            <tr>\n                                <td>\n                                    <select class=\"custom-select \" id=\"traySelect0\" onchange=\"traySelected(0)\">\n                                        <option value='notSelected'></option>\n                                    </select>\n                                </td>\n                                <td>\n                                    <select class=\"custom-select \" id=\"nameSelect0\" onchange=\"nameSelected(0)\">\n                                        <option value='notSelected'></option>\n                                    </select>\n                                </td>\n                                <td>\n                                    <select class=\"custom-select \" id=\"attrSelect0\" onchange=\"attrSelected(0)\">\n                                        <option value='notSelected'></option>\n                                    </select>\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                </div>\n                <div class='row'>\n                    <div class='col-md-12'>\n                        <div class='card'>\n                            <div class='card-body' align=\"center\">\n                                <div width=\"100%\" id=\"spectrogram\" align=\"center\"></div> \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"freezeButton\" type=\"button\" onclick=\"freezeRun()\"></button>\n                    </div>\n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"birdsEyeButton\" type=\"button\" onclick=\"birdsEyeView()\">Birds Eye</button>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"sliceViewButton\" type=\"button\" onclick=\"sliceView()\">Slice View</button>\n                    </div>\n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"sliceViewButton\" type=\"button\" onclick=\"topView()\">Top View</button>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\" align=\"right\" >\n                        <span class=\"tableHeading\" style=\"font-size: medium;\">Start Time</span>\n                    </div>\n                    <div class=\"col-md-6\">\n                        <span class=\"tableHeading\"  style=\"font-size: medium;\" id=\"startTime\"></span>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\"  align=\"right\">\n                        <span class=\"tableHeading\" style=\"font-size: medium;\">Stop Time</span>\n                    </div>\n                    <div class=\"col-md-6\">\n                        <span class=\"tableHeading\" id=\"stopTime\" style=\"font-size: medium;\"></span>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-3\" align=\"right\" >\n                        <span class=\"tableHeading\" style=\"font-size: medium;\">PlotSlices</span>\n                    </div>\n                    <div class=\"col-md-6\">\n                        <input class=\"form-control center-justify\" id=\"plotslices\" type=\"text\" value=\"0\" style=\"font-size: medium;\"/>\n                    </div>\n                </div>\n            </div>\n        </div>\n    /div>\n    ",
+        "template": "    <div width=\"100%\" style='padding-bottom:25px;'>\n        <div class='card'>\n            <div class='card-body' align=\"center\">\n                <div class='row'>\n                    <div class='col-md-12'>\n                        <table width=\"100%\">\n                            <tr>\n                                <td width=\"33%\" align=\"center\"><span class=\"tableHeading \">Tray</span></td>\n                                <td width=\"33%\" align=\"center\"><span class=\"tableHeading \">Name</span></td>\n                                <td width=\"33%\" align=\"center\"><span class=\"tableHeading \">Cube</span></td>\n                            </tr>\n                            <tr>\n                                <td>\n                                    <select class=\"custom-select \" id=\"traySelect0\" onchange=\"traySelected(0)\">\n                                        <option value='notSelected'></option>\n                                    </select>\n                                </td>\n                                <td>\n                                    <select class=\"custom-select \" id=\"nameSelect0\" onchange=\"nameSelected(0)\">\n                                        <option value='notSelected'></option>\n                                    </select>\n                                </td>\n                                <td>\n                                    <select class=\"custom-select \" id=\"attrSelect0\" onchange=\"attrSelected(0)\">\n                                        <option value='notSelected'></option>\n                                    </select>\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                </div>\n                <div class='row'>\n                    <div class='col-md-12'>\n                        <div class='card'>\n                            <div class='card-body' align=\"center\" >\n                                <div width=\"100%\" id=\"spectrogram\" align=\"center\"></div> \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"freezeButton\" type=\"button\" onclick=\"freezeRun()\"></button>\n                    </div>\n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"birdsEyeButton\" type=\"button\" onclick=\"birdsEyeView()\">Birds Eye</button>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"sliceViewButton\" type=\"button\" onclick=\"sliceView()\">Slice View</button>\n                    </div>\n                    <div class=\"col-md-6\" align=\"center\" style=\"padding-top:10px;padding-bottom:10px;\">\n                        <button class=\"btn jumbotron-button btn-block\" id=\"sliceViewButton\" type=\"button\" onclick=\"topView()\">Top View</button>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\" align=\"right\" >\n                        <span class=\"tableHeading\" style=\"font-size: medium;\">Start Time</span>\n                    </div>\n                    <div class=\"col-md-6\">\n                        <span class=\"tableHeading\"  style=\"font-size: medium;\" id=\"startTime\"></span>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-6\"  align=\"right\">\n                        <span class=\"tableHeading\" style=\"font-size: medium;\">Stop Time</span>\n                    </div>\n                    <div class=\"col-md-6\">\n                        <span class=\"tableHeading\" id=\"stopTime\" style=\"font-size: medium;\"></span>\n                    </div>\n                </div>\n                <div class=\"row\"> \n                    <div class=\"col-md-3\" align=\"right\" >\n                        <span class=\"tableHeading\" style=\"font-size: medium;\">PlotSlices</span>\n                    </div>\n                    <div class=\"col-md-6\">\n                        <input class=\"form-control center-justify\" id=\"plotslices\" type=\"text\" value=\"0\" style=\"font-size: medium;\"/>\n                    </div>\n                </div>\n            </div>\n        </div>\n    /div>\n    ",
         "output": "str",
         "x": 1230,
         "y": 40,
@@ -11662,7 +12578,7 @@
         "fieldType": "msg",
         "format": "javascript",
         "syntax": "mustache",
-        "template": "        var numTraces = 1;\n        var traySelect = [];\n        var nameSelect = [];\n        var attrSelect=[];\n        var valSelect=[];\n        var trayInfo = [];\n\n        var graph3d = null;\n        var itimeSlice = 0;\n        var timeMax = 32;\n        var dataArray = [];\n        var timeStamp = [];\n        var deltaT = 0;\n        var freeze = false;\n        var sliceViewActive = false;\n        var birdsEyeViewActive = false;\n        var topViewActive = false;\n        var birdsEyeTimeMax = 32;\n        var plotStarted = false;\n        \n        var threedPlotOptions =\n        {\n            width: '850px',\n            height: '600px',\n            style: 'surface',\n            showPerspective: false,\n            showGrid: true,\n            showShadow: false,\n            keepAspectRatio: false,\n            verticalRatio: 0.6,\n            showZAxis: true,\n            xLabel: 'x',\n            yLabel: 'Time',\n            tooltip: true,\n            axisColor: '#ffffff',\n        };\n\n        useWebSockets(true);\n        function onDocumentReady()\n        {\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                traySelect[itrace] = document.getElementById('traySelect' + itrace.toString());\n                nameSelect[itrace] = document.getElementById('nameSelect' + itrace.toString());\n                attrSelect[itrace] = document.getElementById('attrSelect' + itrace.toString());\n                valSelect[itrace] = document.getElementById('valSelect' + itrace.toString());\n                trayInfo[itrace] = {type: '', name : '',  prop : 'reading', attr : '',tray : {}};\n            }\n            $(\"#freezeButton\").text('Running');\n            $(\"#plotslices\").val(timeMax.toString());\n            $(\"#plotslices\").change(function()\n            {\n                timeMax = Number($(\"#plotslices\").val());\n                if (timeMax < 2)\n                {\n                    alert('Number of plot slices must be greater than 1');\n                    timeMax = 2;\n                }\n                birdsEyeTimeMax = timeMax;\n                $(\"#plotslices\").val(timeMax.toString());\n                dataArray = [];\n                itimeSlice = 0;\n                plotStarted = false;\n            });\n            sliceViewActive = true;\n            birdsEyeViewActive = false;\n            topViewActive = false;\n            setInterval(getTrayValues, 1000);\n        }\n        function restartPlot()\n        {\n            $(\"#freezeButton\").text('Running');\n            $(\"#plotslices\").val(timeMax.toString());\n            dataArray = [];\n            itimeSlice = 0;\n            plotStarted = false;\n            sliceViewActive = true;\n            birdsEyeViewActive = false;\n            topViewActive = false;\n        }\n        function onWebSocketMessage(msg)\n        {\n            if (msg.userID == userID)\n            {\n                switch(msg.topic)\n                {\n                    case 'getTrayList':\n                        loadTrayList(msg.payload);\n                        break;\n                    case 'getNameList':\n                        loadNameList(msg);\n                        break;\n                    case 'getAttrList':\n                        loadAttrList(msg);\n                        break;\n                    case 'getTrayValues':\n                        loadTrayValues(msg);\n                        break;\n                    case 'permissionError':\n                        acknowledgeDialog('Permission', 'Error', msg.payload);\n                        break;\n                    case 'loginExpired':\n                        location.reload();\n                        break;\n                    default:\n                       break;\n                }\n            }\n         }\n        function onWebSocketOpen()\n        {\n            var actionMsg = \n                {\n                };\n            sendActionMsg('getTrayList', 'readDatabase', actionMsg);\n        }\n        function onWebSocketClose()\n        {\n            \n        }\n        function loadTrayList(trayList)\n        {\n            trayList.sort();\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                for (var ii = 0; ii < trayList.length; ++ii)\n                {\n                    var opt = document.createElement('option');\n                    opt.value = trayList[ii];\n                    opt.innerHTML = trayList[ii];\n                    traySelect[itrace].appendChild(opt);\n                }\n            }\n        }\n        function loadNameList(data)\n        {\n            data.nameList.sort();\n            for (var ii = 0; ii < data.nameList.length; ++ii)\n            {\n                var opt = document.createElement('option');\n                opt.value = data.nameList[ii];\n                opt.innerHTML = data.nameList[ii];\n                nameSelect[data.trace].appendChild(opt);\n            }\n\n            return;\n        }\n        function loadAttrList(data)\n        {\n            data.attrList.sort();\n            for (var ii = 0; ii < data.attrList.length; ++ii)\n            {\n                var opt = document.createElement('option');\n                opt.value = data.attrList[ii];\n                opt.innerHTML = data.attrList[ii];\n                attrSelect[data.trace].appendChild(opt);\n            }\n        }\n        function traySelected(itrace)\n        {\n            clearNameOptionList(itrace);\n            if (traySelect[itrace].value == 'notSelected') return;\n            nameSelect[itrace].value = 'notSelected';\n            var actionMsg = \n                {\n                    trace       : itrace,\n                    type  : traySelect[itrace].value\n                };\n            sendActionMsg('getNameList', 'readDatabase', actionMsg);\n        }\n        function nameSelected(itrace)\n        {\n            clearAttrOptionList(itrace);\n            if (nameSelect[itrace].value == 'notSelected') return;\n            var actionMsg = \n                {\n                    trace       : itrace,\n                    type  : traySelect[itrace].value,\n                    name        : nameSelect[itrace].value,\n                    prop        : 'reading'\n                };\n            sendActionMsg('getAttrList', 'readDatabase', actionMsg);\n        }\n        function attrSelected(itrace)\n        {\n            trayInfo[itrace].type = '';\n            trayInfo[itrace].name = '';\n            trayInfo[itrace].attr = '';\n            trayInfo[itrace].tray = {};\n            restartPlot();\n            if (attrSelect[itrace].value == 'notSelected')  return;\n            trayInfo[itrace].type = traySelect[itrace].value;\n            trayInfo[itrace].name = nameSelect[itrace].value;\n            trayInfo[itrace].attr = attrSelect[itrace].value;\n\n        }\n        function clearNameOptionList(itrace)\n        {\n            trayInfo[itrace].type = '';\n            trayInfo[itrace].name = '';\n            trayInfo[itrace].attr = '';\n            trayInfo[itrace].tray = {};\n\n            while (nameSelect[itrace].firstChild)\n            {\n                nameSelect[itrace].removeChild(nameSelect[itrace].firstChild);\n            }\n            var opt = document.createElement('option');\n            opt.value = 'notSelected';\n            opt.innerHTML = '';\n            nameSelect[itrace].appendChild(opt);\n            clearAttrOptionList(itrace);\n        }\n        function clearAttrOptionList(itrace)\n        {\n            trayInfo[itrace].type = '';\n            trayInfo[itrace].name = '';\n            trayInfo[itrace].attr = '';\n            trayInfo[itrace].tray = {};\n\n            while (attrSelect[itrace].firstChild)\n            {\n                attrSelect[itrace].removeChild(attrSelect[itrace].firstChild);\n            }\n            var opt = document.createElement('option');\n            opt.value = 'notSelected';\n            opt.innerHTML = '';\n            attrSelect[itrace].appendChild(opt);\n            \n        }\n        function getTrayValues()\n        {\n            var trayList = [];\n            var traceCount = 0;\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                if ((trayInfo[itrace].type.length > 0) && (trayInfo[itrace].name.length > 0)) \n                {\n                    trayList[traceCount] = { $and: [ {type : trayInfo[itrace].type}, {name : trayInfo[itrace].name}]};\n                    ++traceCount;\n                }\n            }\n            if (traceCount < 1) return;\n            var queryFilter = { $or: trayList };\n            var actionMsg = \n                {\n                    queryFilter : queryFilter,\n                };\n            sendActionMsg('getTrayValues', 'readDatabase', actionMsg);\n        }\n        function loadTrayValues(data)\n        {\n            var trays = data.trays;\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                if (trayInfo[itrace].attr.length > 0)\n                {\n                    for (itray = 0; itray < trays.length; ++itray)\n                    {\n                        if (trays[itray].type == trayInfo[itrace].type)\n                        {\n                            if(trays[itray].name == trayInfo[itrace].name)\n                            {\n                                trayInfo[itrace].tray = trays[itray];\n                                var attr = trayInfo[itrace].tray[trayInfo[itrace].attr];\n                                upDatePlot(attr.value);\n                            }\n                        }\n                    } \n                }\n            }\n        }\n        function upDatePlot(value)\n        {\n            var npts = value[0].length;\n            if(!plotStarted)\n            {\n                dataArray = [];\n                for (var ix = 0; ix < npts; ++ix)\n                {\n                    dataArray[ix] =\n                    {\n                        'x': value[0][ix],\n                        'y': 0,\n                        'z': value[1][ix],\n                        'style': value[1][ix]\n                    };\n                }\n                var container = document.getElementById('spectrogram');\n            \n                graph3d = new vis.Graph3d(container, dataArray, threedPlotOptions);\n                $(\"#startTime\").text(new Date().toLocaleString());\n                $(\"#stopTime\").text(new Date().toLocaleString());\n                graph3d.on('cameraPositionChange', onCameraPositionChange);\n                if (sliceViewActive) sliceView();\n                if (birdsEyeViewActive) birdsEyeView();\n                if (topViewActive) topView();\n                plotStarted = true;\n            }\n            else\n            {\n                if (freeze) return;\n                if (itimeSlice < timeMax)\n                {\n                    timeStamp[itimeSlice] = new Date().getTime();\n                    deltaT = (timeStamp[itimeSlice] - timeStamp[0]) / 1000;\n                    for (var ix = 0; ix < npts; ++ix)\n                    {\n                        dataArray[itimeSlice * npts + ix] =\n                        {\n                            'x': value[0][ix],\n                            'y': deltaT,\n                            'z': value[1][ix],\n                            'style': value[1][ix]\n                        };\n                    }\n                    ++itimeSlice;\n                }\n                else\n                {\n                    for (var itime = 0; itime < (timeMax - 1); ++itime)\n                    {\n                        timeStamp[itime] = timeStamp[itime + 1];\n                        deltaT = (timeStamp[itime] - timeStamp[0]) / 1000;\n                        for (var ix = 0; ix < npts; ++ix)\n                        {\n                            dataArray[itime * npts + ix] =\n                            {\n                                'x': dataArray[(itime + 1) * npts + ix].x,\n                                'y': deltaT,\n                                'z': dataArray[(itime + 1) * npts + ix].z,\n                                'style': dataArray[(itime + 1) * npts + ix].style\n                            };\n                        }\n                    }\n                    timeStamp[timeMax - 1] = new Date().getTime();\n                    deltaT = (timeStamp[timeMax - 1] - timeStamp[0]) / 1000;\n                    for (var ix = 0; ix < npts; ++ix)\n                    {\n                        dataArray[(timeMax - 1) * npts + ix] =\n                        {\n                            'x': value[0][ix],\n                            'y': deltaT,\n                            'z': value[1][ix],\n                            'style': value[1][ix]\n                        };\n                    }\n                }\n                $(\"#startTime\").text(new Date(timeStamp[0]).toLocaleString());\n                $(\"#stopTime\").text(new Date(timeStamp[itimeSlice - 1]).toLocaleString());\n                graph3d.setData(dataArray);\n            }\n        }\n        function freezeRun()\n        {\n            freeze = !freeze;\n            if (freeze)\n            {\n                $(\"#freezeButton\").text('Frozen');\n            }\n            else\n            {\n                $(\"#freezeButton\").text('Running');\n            }\n        }\n        \n        function birdsEyeView()\n        {\n            var horzAngle = 315.0 * 3.1415927 / 180.0;\n            var vertAngle = 45.0 * 3.1415927 / 180.0;\n            graph3d.setCameraPosition({'horizontal': horzAngle, 'vertical': vertAngle, 'distance': 2.0});\n            if (sliceViewActive)\n            {\n                timeMax =  birdsEyeTimeMax;\n                $(\"#plotslices\").val(timeMax.toString());\n            }\n            sliceViewActive = false;\n            birdsEyeViewActive = true;\n            topViewActive = false;\n        }\n        function sliceView()\n        {\n            var horzAngle = 0.0 * 3.1415927 / 180.0;\n            var vertAngle = 0.0 * 3.1415927 / 180.0;\n            graph3d.setCameraPosition({'horizontal': horzAngle, 'vertical': vertAngle, 'distance': 1.1});\n            timeMax = 2;\n            $(\"#plotslices\").val(timeMax.toString());\n            itimeSlice = 0;\n            plotStarted = false;\n            sliceViewActive = true;\n            birdsEyeViewActive = false;\n            topViewActive = false;\n        }\n        function topView()\n        {\n            var horzAngle = 0 * 3.1415927 / 180.0;\n            var vertAngle = 90 * 3.1415927 / 180.0;\n            graph3d.setCameraPosition({'horizontal': horzAngle, 'vertical': vertAngle, 'distance': 2.0});\n            if (sliceViewActive)\n            {\n                timeMax =  birdsEyeTimeMax;\n                $(\"#plotslices\").val(timeMax.toString());\n            }\n            sliceViewActive = false;\n            birdsEyeViewActive = false;\n            topViewActive = true;\n        }\n        function onCameraPositionChange(event)\n        {\n            if (sliceViewActive) sliceView();\n            if (birdsEyeViewActive) birdsEyeView();\n            if (topViewActive) topView();\n        }",
+        "template": "        var numTraces = 1;\n        var traySelect = [];\n        var nameSelect = [];\n        var attrSelect=[];\n        var valSelect=[];\n        var trayInfo = [];\n\n        var graph3d = null;\n        var itimeSlice = 0;\n        var timeMax = 32;\n        var dataArray = [];\n        var timeStamp = [];\n        var deltaT = 0;\n        var freeze = false;\n        var sliceViewActive = false;\n        var birdsEyeViewActive = false;\n        var topViewActive = false;\n        var birdsEyeTimeMax = 32;\n        var plotStarted = false;\n        \n        var threedPlotOptions =\n        {\n            width: '850px',\n            height: '600px',\n            style: 'surface',\n            showPerspective: false,\n            showGrid: true,\n            showShadow: false,\n            keepAspectRatio: false,\n            verticalRatio: 0.6,\n            showZAxis: true,\n            xLabel: 'x',\n            yLabel: 'Time',\n            tooltip: true,\n            axisColor: '#000000',\n        };\n\n        useWebSockets(true);\n        function onDocumentReady()\n        {\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                traySelect[itrace] = document.getElementById('traySelect' + itrace.toString());\n                nameSelect[itrace] = document.getElementById('nameSelect' + itrace.toString());\n                attrSelect[itrace] = document.getElementById('attrSelect' + itrace.toString());\n                valSelect[itrace] = document.getElementById('valSelect' + itrace.toString());\n                trayInfo[itrace] = {type: '', name : '',  prop : 'reading', attr : '',tray : {}};\n            }\n            $(\"#freezeButton\").text('Running');\n            $(\"#plotslices\").val(timeMax.toString());\n            $(\"#plotslices\").change(function()\n            {\n                timeMax = Number($(\"#plotslices\").val());\n                if (timeMax < 2)\n                {\n                    alert('Number of plot slices must be greater than 1');\n                    timeMax = 2;\n                }\n                birdsEyeTimeMax = timeMax;\n                $(\"#plotslices\").val(timeMax.toString());\n                dataArray = [];\n                itimeSlice = 0;\n                plotStarted = false;\n            });\n            sliceViewActive = true;\n            birdsEyeViewActive = false;\n            topViewActive = false;\n            setInterval(getTrayValues, 1000);\n        }\n        function restartPlot()\n        {\n            $(\"#freezeButton\").text('Running');\n            $(\"#plotslices\").val(timeMax.toString());\n            dataArray = [];\n            itimeSlice = 0;\n            plotStarted = false;\n            sliceViewActive = true;\n            birdsEyeViewActive = false;\n            topViewActive = false;\n        }\n        function onWebSocketMessage(msg)\n        {\n            if (msg.userID == userID)\n            {\n                switch(msg.topic)\n                {\n                    case 'getTrayList':\n                        loadTrayList(msg.payload);\n                        break;\n                    case 'getNameList':\n                        loadNameList(msg);\n                        break;\n                    case 'getAttrList':\n                        loadAttrList(msg);\n                        break;\n                    case 'getTrayValues':\n                        loadTrayValues(msg);\n                        break;\n                    case 'permissionError':\n                        acknowledgeDialog('Permission', 'Error', msg.payload);\n                        break;\n                    case 'loginExpired':\n                        location.reload();\n                        break;\n                    default:\n                       break;\n                }\n            }\n         }\n        function onWebSocketOpen()\n        {\n            var actionMsg = \n                {\n                };\n            sendActionMsg('getTrayList', 'readDatabase', actionMsg);\n        }\n        function onWebSocketClose()\n        {\n            \n        }\n        function loadTrayList(trayList)\n        {\n            trayList.sort();\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                for (var ii = 0; ii < trayList.length; ++ii)\n                {\n                    var opt = document.createElement('option');\n                    opt.value = trayList[ii];\n                    opt.innerHTML = trayList[ii];\n                    traySelect[itrace].appendChild(opt);\n                }\n            }\n        }\n        function loadNameList(data)\n        {\n            data.nameList.sort();\n            for (var ii = 0; ii < data.nameList.length; ++ii)\n            {\n                var opt = document.createElement('option');\n                opt.value = data.nameList[ii];\n                opt.innerHTML = data.nameList[ii];\n                nameSelect[data.trace].appendChild(opt);\n            }\n\n            return;\n        }\n        function loadAttrList(data)\n        {\n            data.attrList.sort();\n            for (var ii = 0; ii < data.attrList.length; ++ii)\n            {\n                var opt = document.createElement('option');\n                opt.value = data.attrList[ii];\n                opt.innerHTML = data.attrList[ii];\n                attrSelect[data.trace].appendChild(opt);\n            }\n        }\n        function traySelected(itrace)\n        {\n            clearNameOptionList(itrace);\n            if (traySelect[itrace].value == 'notSelected') return;\n            nameSelect[itrace].value = 'notSelected';\n            var actionMsg = \n                {\n                    trace       : itrace,\n                    type  : traySelect[itrace].value\n                };\n            sendActionMsg('getNameList', 'readDatabase', actionMsg);\n        }\n        function nameSelected(itrace)\n        {\n            clearAttrOptionList(itrace);\n            if (nameSelect[itrace].value == 'notSelected') return;\n            var actionMsg = \n                {\n                    trace       : itrace,\n                    type  : traySelect[itrace].value,\n                    name        : nameSelect[itrace].value,\n                    prop        : 'reading'\n                };\n            sendActionMsg('getAttrList', 'readDatabase', actionMsg);\n        }\n        function attrSelected(itrace)\n        {\n            trayInfo[itrace].type = '';\n            trayInfo[itrace].name = '';\n            trayInfo[itrace].attr = '';\n            trayInfo[itrace].tray = {};\n            restartPlot();\n            if (attrSelect[itrace].value == 'notSelected')  return;\n            trayInfo[itrace].type = traySelect[itrace].value;\n            trayInfo[itrace].name = nameSelect[itrace].value;\n            trayInfo[itrace].attr = attrSelect[itrace].value;\n\n        }\n        function clearNameOptionList(itrace)\n        {\n            trayInfo[itrace].type = '';\n            trayInfo[itrace].name = '';\n            trayInfo[itrace].attr = '';\n            trayInfo[itrace].tray = {};\n\n            while (nameSelect[itrace].firstChild)\n            {\n                nameSelect[itrace].removeChild(nameSelect[itrace].firstChild);\n            }\n            var opt = document.createElement('option');\n            opt.value = 'notSelected';\n            opt.innerHTML = '';\n            nameSelect[itrace].appendChild(opt);\n            clearAttrOptionList(itrace);\n        }\n        function clearAttrOptionList(itrace)\n        {\n            trayInfo[itrace].type = '';\n            trayInfo[itrace].name = '';\n            trayInfo[itrace].attr = '';\n            trayInfo[itrace].tray = {};\n\n            while (attrSelect[itrace].firstChild)\n            {\n                attrSelect[itrace].removeChild(attrSelect[itrace].firstChild);\n            }\n            var opt = document.createElement('option');\n            opt.value = 'notSelected';\n            opt.innerHTML = '';\n            attrSelect[itrace].appendChild(opt);\n            \n        }\n        function getTrayValues()\n        {\n            var trayList = [];\n            var traceCount = 0;\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                if ((trayInfo[itrace].type.length > 0) && (trayInfo[itrace].name.length > 0)) \n                {\n                    trayList[traceCount] = { $and: [ {type : trayInfo[itrace].type}, {name : trayInfo[itrace].name}]};\n                    ++traceCount;\n                }\n            }\n            if (traceCount < 1) return;\n            var queryFilter = { $or: trayList };\n            var actionMsg = \n                {\n                    queryFilter : queryFilter,\n                };\n            sendActionMsg('getTrayValues', 'readDatabase', actionMsg);\n        }\n        function loadTrayValues(data)\n        {\n            var trays = data.trays;\n            for (var itrace = 0; itrace < numTraces; ++itrace)\n            {\n                if (trayInfo[itrace].attr.length > 0)\n                {\n                    for (itray = 0; itray < trays.length; ++itray)\n                    {\n                        if (trays[itray].type == trayInfo[itrace].type)\n                        {\n                            if(trays[itray].name == trayInfo[itrace].name)\n                            {\n                                trayInfo[itrace].tray = trays[itray];\n                                var attr = trayInfo[itrace].tray[trayInfo[itrace].attr];\n                                upDatePlot(attr.value);\n                            }\n                        }\n                    } \n                }\n            }\n        }\n        function upDatePlot(value)\n        {\n            var npts = value[0].length;\n            if(!plotStarted)\n            {\n                dataArray = [];\n                for (var ix = 0; ix < npts; ++ix)\n                {\n                    dataArray[ix] =\n                    {\n                        'x': value[0][ix],\n                        'y': 0,\n                        'z': value[1][ix],\n                        'style': value[1][ix]\n                    };\n                }\n                var container = document.getElementById('spectrogram');\n            \n                graph3d = new vis.Graph3d(container, dataArray, threedPlotOptions);\n                $(\"#startTime\").text(new Date().toLocaleString());\n                $(\"#stopTime\").text(new Date().toLocaleString());\n                graph3d.on('cameraPositionChange', onCameraPositionChange);\n                if (sliceViewActive) sliceView();\n                if (birdsEyeViewActive) birdsEyeView();\n                if (topViewActive) topView();\n                plotStarted = true;\n            }\n            else\n            {\n                if (freeze) return;\n                if (itimeSlice < timeMax)\n                {\n                    timeStamp[itimeSlice] = new Date().getTime();\n                    deltaT = (timeStamp[itimeSlice] - timeStamp[0]) / 1000;\n                    for (var ix = 0; ix < npts; ++ix)\n                    {\n                        dataArray[itimeSlice * npts + ix] =\n                        {\n                            'x': value[0][ix],\n                            'y': deltaT,\n                            'z': value[1][ix],\n                            'style': value[1][ix]\n                        };\n                    }\n                    ++itimeSlice;\n                }\n                else\n                {\n                    for (var itime = 0; itime < (timeMax - 1); ++itime)\n                    {\n                        timeStamp[itime] = timeStamp[itime + 1];\n                        deltaT = (timeStamp[itime] - timeStamp[0]) / 1000;\n                        for (var ix = 0; ix < npts; ++ix)\n                        {\n                            dataArray[itime * npts + ix] =\n                            {\n                                'x': dataArray[(itime + 1) * npts + ix].x,\n                                'y': deltaT,\n                                'z': dataArray[(itime + 1) * npts + ix].z,\n                                'style': dataArray[(itime + 1) * npts + ix].style\n                            };\n                        }\n                    }\n                    timeStamp[timeMax - 1] = new Date().getTime();\n                    deltaT = (timeStamp[timeMax - 1] - timeStamp[0]) / 1000;\n                    for (var ix = 0; ix < npts; ++ix)\n                    {\n                        dataArray[(timeMax - 1) * npts + ix] =\n                        {\n                            'x': value[0][ix],\n                            'y': deltaT,\n                            'z': value[1][ix],\n                            'style': value[1][ix]\n                        };\n                    }\n                }\n                $(\"#startTime\").text(new Date(timeStamp[0]).toLocaleString());\n                $(\"#stopTime\").text(new Date(timeStamp[itimeSlice - 1]).toLocaleString());\n                graph3d.setData(dataArray);\n            }\n        }\n        function freezeRun()\n        {\n            freeze = !freeze;\n            if (freeze)\n            {\n                $(\"#freezeButton\").text('Frozen');\n            }\n            else\n            {\n                $(\"#freezeButton\").text('Running');\n            }\n        }\n        \n        function birdsEyeView()\n        {\n            var horzAngle = 45.0 * 3.1415927 / 180.0;\n            var vertAngle = 45.0 * 3.1415927 / 180.0;\n            graph3d.setCameraPosition({'horizontal': horzAngle, 'vertical': vertAngle, 'distance': 2.0});\n            if (sliceViewActive)\n            {\n                timeMax =  birdsEyeTimeMax;\n                $(\"#plotslices\").val(timeMax.toString());\n            }\n            sliceViewActive = false;\n            birdsEyeViewActive = true;\n            topViewActive = false;\n        }\n        function sliceView()\n        {\n            var horzAngle = 0.0 * 3.1415927 / 180.0;\n            var vertAngle = 0.0 * 3.1415927 / 180.0;\n            graph3d.setCameraPosition({'horizontal': horzAngle, 'vertical': vertAngle, 'distance': 1.1});\n            timeMax = 2;\n            $(\"#plotslices\").val(timeMax.toString());\n            itimeSlice = 0;\n            plotStarted = false;\n            sliceViewActive = true;\n            birdsEyeViewActive = false;\n            topViewActive = false;\n        }\n        function topView()\n        {\n            var horzAngle = 0 * 3.1415927 / 180.0;\n            var vertAngle = 90 * 3.1415927 / 180.0;\n            graph3d.setCameraPosition({'horizontal': horzAngle, 'vertical': vertAngle, 'distance': 2.0});\n            if (sliceViewActive)\n            {\n                timeMax =  birdsEyeTimeMax;\n                $(\"#plotslices\").val(timeMax.toString());\n            }\n            sliceViewActive = false;\n            birdsEyeViewActive = false;\n            topViewActive = true;\n        }\n        function onCameraPositionChange(event)\n        {\n            if (sliceViewActive) sliceView();\n//            if (birdsEyeViewActive) birdsEyeView();\n            if (topViewActive) topView();\n        }",
         "output": "str",
         "x": 820,
         "y": 40,
