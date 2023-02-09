@@ -7,6 +7,13 @@
         "info": ""
     },
     {
+        "id": "e17f7487.2a78e8",
+        "type": "tab",
+        "label": "Data Logger",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "90f83725.6dae08",
         "type": "tab",
         "label": "Logging and Credentials",
@@ -1185,9 +1192,32 @@
             "0ae559dfc1cd42e5"
         ],
         "x": 174,
-        "y": 199,
-        "w": 1272,
-        "h": 362
+        "y": 199
+    },
+    {
+        "id": "f50b4ef8bb21b694",
+        "type": "group",
+        "z": "e17f7487.2a78e8",
+        "name": "Data Logger",
+        "style": {
+            "stroke": "#001f60",
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "4ffc61b266cd720c",
+            "d0942eab7e4a8590",
+            "e30d52b0766a90c3",
+            "079ec35186fa23a5",
+            "34606eece52fa71b",
+            "fcb77c04cd512365",
+            "c10c2247f9504692"
+        ],
+        "x": 154,
+        "y": 59,
+        "w": 1112,
+        "h": 209.5
     },
     {
         "id": "cd695d6cf168d142",
@@ -1284,9 +1314,7 @@
             "568288857ebaefaa"
         ],
         "x": 174,
-        "y": 639,
-        "w": 1072,
-        "h": 502
+        "y": 639
     },
     {
         "id": "943ba30499779d75",
@@ -1414,6 +1442,52 @@
         ],
         "x": 174,
         "y": 1679
+    },
+    {
+        "id": "a34ee7cdaf781b79",
+        "type": "group",
+        "z": "e17f7487.2a78e8",
+        "name": "Database Pruner",
+        "style": {
+            "stroke": "#001f60",
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "4627d72c.810368",
+            "cdfc8294.43d83",
+            "f226d7aa.824b28",
+            "e6a006f16634c572",
+            "2a00870ef464cbe5",
+            "4855b6b5352f7431"
+        ],
+        "x": 154,
+        "y": 379,
+        "w": 1582,
+        "h": 82
+    },
+    {
+        "id": "4d9aee0d09b30607",
+        "type": "group",
+        "z": "e17f7487.2a78e8",
+        "name": "Archive Tray Dropper",
+        "style": {
+            "stroke": "#001f60",
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "d6512c27e78eca32",
+            "85720fd023515cd8",
+            "cd90d612ed2a2218",
+            "893874ffb26184f9"
+        ],
+        "x": 154,
+        "y": 519,
+        "w": 932,
+        "h": 82
     },
     {
         "id": "4289ac7ec6016867",
@@ -1849,9 +1923,7 @@
             "30a4a020cf5c79ba"
         ],
         "x": 164,
-        "y": 99,
-        "w": 342,
-        "h": 382
+        "y": 99
     },
     {
         "id": "b47ef8a5f938f683",
@@ -5021,6 +5093,381 @@
         "wires": [
             [
                 "38d5492f222ec15f"
+            ]
+        ]
+    },
+    {
+        "id": "4627d72c.810368",
+        "type": "inject",
+        "z": "e17f7487.2a78e8",
+        "g": "a34ee7cdaf781b79",
+        "name": "Prune every 2 hours",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "7200",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 420,
+        "wires": [
+            [
+                "e6a006f16634c572"
+            ]
+        ]
+    },
+    {
+        "id": "cdfc8294.43d83",
+        "type": "function",
+        "z": "e17f7487.2a78e8",
+        "g": "a34ee7cdaf781b79",
+        "name": "Find Number of Records to cut",
+        "func": "var maxDbSize = global.get('maxDbSize');\nif (maxDbSize == undefined) return null;\nif (msg.payload.size < maxDbSize) return null;\nvar cutRecords = Math.round( (msg.payload.size - 0.9 * maxDbSize) / msg.payload.avgObjSize);\nvar newMsg = \n{\n    topic           : 'test',\n    payload         : [{},{projection:{timeStamp:1, _id:0}}],\n    cutRecords      : cutRecords\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 420,
+        "wires": [
+            [
+                "2a00870ef464cbe5"
+            ]
+        ]
+    },
+    {
+        "id": "f226d7aa.824b28",
+        "type": "function",
+        "z": "e17f7487.2a78e8",
+        "g": "a34ee7cdaf781b79",
+        "name": "Find latest Time Stamp",
+        "func": "function objectLength( object ) {\n    var length = 0;\n    for( var key in object ) {\n        if( object.hasOwnProperty(key) ) {\n            ++length;\n        }\n    }\n    return length;\n}\nvar numTrays = objectLength(msg.payload);\nvar timeStampList = [];\n\nfor (var itray = 0; itray < numTrays; ++itray)\n{\n    timeStampList[itray] = msg.payload[itray].timeStamp;\n}\ntimeStampList.sort();\n\n\nvar newMsg = \n{\n    topic           : 'test',\n    payload         : [{timeStamp: {\"$lte\": timeStampList[msg.cutRecords]}},{projection:{timeStamp:1, _id:0}}],\n};\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6a006f16634c572",
+        "type": "mongodb3 in",
+        "z": "e17f7487.2a78e8",
+        "g": "a34ee7cdaf781b79",
+        "service": "_ext_",
+        "configNode": "9cd5ff5e.caf86",
+        "name": "",
+        "collection": "archiver",
+        "operation": "stats",
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "cdfc8294.43d83"
+            ]
+        ]
+    },
+    {
+        "id": "2a00870ef464cbe5",
+        "type": "mongodb3 in",
+        "z": "e17f7487.2a78e8",
+        "g": "a34ee7cdaf781b79",
+        "service": "_ext_",
+        "configNode": "9cd5ff5e.caf86",
+        "name": "",
+        "collection": "archiver",
+        "operation": "find.toArray",
+        "x": 1080,
+        "y": 420,
+        "wires": [
+            [
+                "f226d7aa.824b28"
+            ]
+        ]
+    },
+    {
+        "id": "4855b6b5352f7431",
+        "type": "mongodb3 in",
+        "z": "e17f7487.2a78e8",
+        "g": "a34ee7cdaf781b79",
+        "service": "_ext_",
+        "configNode": "9cd5ff5e.caf86",
+        "name": "",
+        "collection": "archiver",
+        "operation": "removeMany",
+        "x": 1580,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ffc61b266cd720c",
+        "type": "link out",
+        "z": "e17f7487.2a78e8",
+        "g": "f50b4ef8bb21b694",
+        "name": "Subscribe Readings Out",
+        "mode": "link",
+        "links": [
+            "1512243435a0ec2c",
+            "229914f7347d04d8",
+            "296ce089db74a1b5",
+            "2a1d3ff91d11ab9b",
+            "3c5ab7eda412bc5c",
+            "4c23b1c0444fdca5",
+            "4e4453e4f560ffd7",
+            "9800371cca717e58",
+            "e928c1d6d05dd339",
+            "f29c301276738c5e",
+            "636b1a8af11c5553",
+            "116ea6c7ce824cb1",
+            "7bce085f8052ef7b",
+            "95d0d0d4392ae158",
+            "a056eb265fb4061a",
+            "966d1e458cf5d07d",
+            "8c3b6088b7f5ebfd",
+            "33e54de74dad3417",
+            "150740e7cd0865cd",
+            "c68eed5750b7484a",
+            "410760b7c1cdbc31"
+        ],
+        "x": 1225,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d0942eab7e4a8590",
+        "type": "mqtt in",
+        "z": "e17f7487.2a78e8",
+        "g": "f50b4ef8bb21b694",
+        "name": "Subscribe ",
+        "topic": "$(SUBSCRIBETOPIC)",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "84d80994.260508",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "e30d52b0766a90c3"
+            ]
+        ]
+    },
+    {
+        "id": "e30d52b0766a90c3",
+        "type": "json",
+        "z": "e17f7487.2a78e8",
+        "g": "f50b4ef8bb21b694",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 370,
+        "y": 220,
+        "wires": [
+            [
+                "079ec35186fa23a5"
+            ]
+        ]
+    },
+    {
+        "id": "079ec35186fa23a5",
+        "type": "function",
+        "z": "e17f7487.2a78e8",
+        "g": "f50b4ef8bb21b694",
+        "name": "Split MQTT topic",
+        "func": "var mqttArray = msg.topic.split('/');\nreturn {\n    topic   :   msg.topic, \n    payload : \n    [\n        {\n            $and   :    \n            [\n                {\n                    type : mqttArray[1]\n                },\n                {\n                    name : mqttArray[2]\n                }\n            ]\n        }, \n        {\n            projection  :\n            {\n                _id :   0\n                \n            }\n        }\n    ],\n    'tray'    :   msg.payload,\n    'action'  :   mqttArray[3]\n};\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "34606eece52fa71b"
+            ]
+        ]
+    },
+    {
+        "id": "34606eece52fa71b",
+        "type": "mongodb3 in",
+        "z": "e17f7487.2a78e8",
+        "g": "f50b4ef8bb21b694",
+        "service": "_ext_",
+        "configNode": "9cd5ff5e.caf86",
+        "name": "",
+        "collection": "trays",
+        "operation": "findOne",
+        "x": 750,
+        "y": 220,
+        "wires": [
+            [
+                "fcb77c04cd512365"
+            ]
+        ]
+    },
+    {
+        "id": "fcb77c04cd512365",
+        "type": "function",
+        "z": "e17f7487.2a78e8",
+        "g": "f50b4ef8bb21b694",
+        "name": "Check if Tray Exists",
+        "func": "function isEmpty(obj) \n{\n    for(var key in obj) \n    {\n        if(obj.hasOwnProperty(key))\n            return false;\n    }\n    return true;\n}\nif (isEmpty(msg.payload)) return null;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 220,
+        "wires": [
+            [
+                "c10c2247f9504692"
+            ]
+        ]
+    },
+    {
+        "id": "c10c2247f9504692",
+        "type": "switch",
+        "z": "e17f7487.2a78e8",
+        "g": "f50b4ef8bb21b694",
+        "name": "",
+        "property": "action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "reading",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "archive",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "postMortem",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1130,
+        "y": 220,
+        "wires": [
+            [
+                "4ffc61b266cd720c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d6512c27e78eca32",
+        "type": "function",
+        "z": "e17f7487.2a78e8",
+        "g": "4d9aee0d09b30607",
+        "name": "Make Permit Device",
+        "func": "return {\n    topic   :   'removeFromArchiver', \n    payload :  [ { $and   : [{type : \"mode0-rp\"}, {name :\"01\"}]} ]\n};\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85720fd023515cd8",
+        "type": "mongodb3 in",
+        "z": "e17f7487.2a78e8",
+        "g": "4d9aee0d09b30607",
+        "service": "_ext_",
+        "configNode": "9cd5ff5e.caf86",
+        "name": "",
+        "collection": "archiver",
+        "operation": "removeMany",
+        "x": 710,
+        "y": 560,
+        "wires": [
+            [
+                "cd90d612ed2a2218"
+            ]
+        ]
+    },
+    {
+        "id": "cd90d612ed2a2218",
+        "type": "debug",
+        "z": "e17f7487.2a78e8",
+        "g": "4d9aee0d09b30607",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "893874ffb26184f9",
+        "type": "inject",
+        "z": "e17f7487.2a78e8",
+        "g": "4d9aee0d09b30607",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 560,
+        "wires": [
+            [
+                "d6512c27e78eca32"
             ]
         ]
     },
