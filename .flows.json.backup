@@ -1917,13 +1917,9 @@
             "f29f9ea8195dab79",
             "09bee54641ab5226",
             "6987f34e19e761b3",
-            "9814507833c3b113",
-            "cd1eb41b59cc5184",
             "c775a93cfd3593ba",
             "61d50dd0a9f75f30",
             "aa97b77df9810b78",
-            "d3f49a6d4d067345",
-            "b5e753d7c382412d",
             "5105f9751296603b",
             "cab1fbd2528d869c",
             "e206daa43b62f980",
@@ -1931,9 +1927,9 @@
             "30a4a020cf5c79ba"
         ],
         "x": 164,
-        "y": 59,
+        "y": 99,
         "w": 342,
-        "h": 422
+        "h": 382
     },
     {
         "id": "b47ef8a5f938f683",
@@ -15506,34 +15502,18 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "espotPrice",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "esp",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "blinky-eon-mon",
+                "v": "customApp1",
                 "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 1,
         "x": 340,
         "y": 140,
         "wires": [
             [
                 "6987f34e19e761b3"
-            ],
-            [
-                "9814507833c3b113"
-            ],
-            [
-                "cd1eb41b59cc5184"
             ]
         ]
     },
@@ -15549,36 +15529,7 @@
             "a2a539c0acac27b9"
         ],
         "x": 465,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "9814507833c3b113",
-        "type": "link out",
-        "z": "401d2470458fed2d",
-        "g": "565f4068c450fc58",
-        "name": "esp-archive",
-        "mode": "link",
-        "links": [
-            "9c498eeb2fb03cee",
-            "52db27099d3793f7"
-        ],
-        "x": 465,
         "y": 140,
-        "wires": []
-    },
-    {
-        "id": "cd1eb41b59cc5184",
-        "type": "link out",
-        "z": "401d2470458fed2d",
-        "g": "565f4068c450fc58",
-        "name": "eonMon-archive",
-        "mode": "link",
-        "links": [
-            "2e674860f244fba6"
-        ],
-        "x": 465,
-        "y": 180,
         "wires": []
     },
     {
@@ -15609,34 +15560,18 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "espotPrice",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "esp",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "blinky-eon-mon",
+                "v": "customApp1",
                 "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 1,
         "x": 320,
         "y": 280,
         "wires": [
             [
                 "aa97b77df9810b78"
-            ],
-            [
-                "d3f49a6d4d067345"
-            ],
-            [
-                "b5e753d7c382412d"
             ]
         ]
     },
@@ -15652,36 +15587,7 @@
             "a2a539c0acac27b9"
         ],
         "x": 465,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "d3f49a6d4d067345",
-        "type": "link out",
-        "z": "401d2470458fed2d",
-        "g": "565f4068c450fc58",
-        "name": "esp-getDevice",
-        "mode": "link",
-        "links": [
-            "9c498eeb2fb03cee",
-            "52db27099d3793f7"
-        ],
-        "x": 465,
         "y": 280,
-        "wires": []
-    },
-    {
-        "id": "b5e753d7c382412d",
-        "type": "link out",
-        "z": "401d2470458fed2d",
-        "g": "565f4068c450fc58",
-        "name": "eonMon-getDevice",
-        "mode": "link",
-        "links": [
-            "2e674860f244fba6"
-        ],
-        "x": 465,
-        "y": 320,
         "wires": []
     },
     {
