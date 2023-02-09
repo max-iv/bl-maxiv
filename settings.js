@@ -90,8 +90,8 @@ module.exports = {
 
     /** Option 1: static object */
     https: {
-      key: require("fs").readFileSync('/home/pi/bl-maxiv/maxiv-controlbox-01_maxiv_lu_se.key'),
-      cert: require("fs").readFileSync('/home/pi/bl-maxiv/maxiv-controlbox-01_maxiv_lu_se.cer')
+      key: require("fs").readFileSync('/home/pi/maxiv-controlbox-01_maxiv_lu_se.key'),
+      cert: require("fs").readFileSync('/home/pi/maxiv-controlbox-01_maxiv_lu_se.cer')
     },
 
     /** Option 2: function that returns the HTTP configuration object */
