@@ -331,7 +331,13 @@ module.exports = {
         /** To disable the 'Welcome to Node-RED' tour that is displayed the first
          * time you access the editor for each release of Node-RED, set this to false
          */
-        //tours: false,
+        tours: false,
+        page: {
+            title: "Bl-MAXIV"
+        },
+        header: {
+            title: "Bl-MAXIV"
+        },
 
         palette: {
             /** The following property can be used to order the categories in the editor
@@ -339,7 +345,7 @@ module.exports = {
              * added to the end of the palette.
              * If not set, the following default order is used:
              */
-            //categories: ['subflows', 'common', 'function', 'network', 'sequence', 'parser', 'storage'],
+            categories: ['common', 'function', 'network', 'sequence', 'parser', 'storage','subflows'],
         },
 
         projects: {
